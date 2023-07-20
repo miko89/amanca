@@ -1,0 +1,653 @@
+gid,name,province,DOMAIN,local_name,LAT,LONG
+501212,Bandung,Jawa Barat,Jawa Barat,Kota Bandung,-6.90992,107.64691
+501213,Banjar,Jawa Barat,Jawa Barat,Kota Banjar,-7.36996,108.55901
+501216,Ciamis,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.36,108.48
+501217,Cianjur,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.816666668,107.1333
+501218,Cibinong,Jawa Barat,Jawa Barat,Kab. Bogor,-6.494077,106.830711
+501219,Cikarang,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.255237,107.149658
+501220,Cimahi,Jawa Barat,Jawa Barat,Kota Cimahi,-6.88191,107.54861
+501221,Cirebon,Jawa Barat,Jawa Barat,Kota Cirebon,-6.72,108.57552
+501222,Kab.Sukabumi,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.930517,106.921005
+501224,Garut,Jawa Barat,Jawa Barat,Kab. Garut,-7.233333334,107.8833
+501225,Indramayu,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.333333334,108.3167
+501226,Karawang,Jawa Barat,Jawa Barat,Kab. Karawang,-6.309156,107.306213
+501227,Kuningan,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.983333335,108.4833
+501228,Majalengka,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.81747,108.22775
+501229,Pelabuhan Ratu,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.985,106.55
+501230,Purwakarta,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.565025,107.439423
+501231,Singaparna,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.348833,108.121944
+501232,Soreang,Jawa Barat,Jawa Barat,Kab. Bandung,-7.025935,107.524567
+501233,Subang,Jawa Barat,Jawa Barat,Kab. Subang,-6.566389,107.760773
+501234,Sumber,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.75021,108.55259
+501235,Sumedang,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.850078,107.926941
+501236,Tasikmalaya,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.36021,108.21763
+501599,Lembang,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.816671,107.633057
+5002227,Kota Bogor,Jawa Barat,Jawa Barat,Kota Bogor,-6.598449,106.797409
+5002228,Bekasi,Jawa Barat,Jawa Barat,Kota Bekasi,-6.23476,106.994476
+5002229,Depok,Jawa Barat,Jawa Barat,Kota Depok,-6.408107,106.814575
+5002252,Parigi,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.684454,108.538742
+5002286,Cisarua,Jawa Barat,Jawa Barat,Kab. Bogor,-6.690523,106.931305
+5002287,Cipanas,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.7103,107.20047
+5002288,Gadog,Jawa Barat,Jawa Barat,Gadog Puncak,-6.656764,106.86367
+5009222,Agrabinta,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.4082,106.9917
+5009223,Andir,Jawa Barat,Jawa Barat,Kota Bandung,-6.906,107.564
+5009224,Anjatan,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.36,107.92
+5009225,Antapani,Jawa Barat,Jawa Barat,Kota Bandung,-6.917,107.642
+5009226,Arahan,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.35,108.25
+5009227,Arcamanik,Jawa Barat,Jawa Barat,Kota Bandung,-6.921,107.661
+5009228,Argapura,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.893,108.319
+5009229,Arjasari,Jawa Barat,Jawa Barat,Kab. Bandung,-7.049,107.64
+5009230,Arjawinangun,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.633,108.365
+5009231,Astanaanyar,Jawa Barat,Jawa Barat,Kota Bandung,-6.938,107.584
+5009232,Astanajapura,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.795,108.586
+5009233,Babakan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.866,108.708
+5009234,Babakan Madang,Jawa Barat,Jawa Barat,Kab. Bogor,-6.548,106.986
+5009235,Babakanciparay,Jawa Barat,Jawa Barat,Kota Bandung,-6.94,107.559
+5009236,Babelan,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.127,107.034
+5009237,Baleendah,Jawa Barat,Jawa Barat,Kab. Bandung,-7.011,107.624
+5009238,Balongan,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.384,108.341
+5009239,Bandung Kidul,Jawa Barat,Jawa Barat,Kota Bandung,-6.955,107.612
+5009240,Bandung Kulon,Jawa Barat,Jawa Barat,Kota Bandung,-6.931,107.546
+5009241,Bandung Wetan,Jawa Barat,Jawa Barat,Kota Bandung,-6.905,107.609
+5009242,Bangodua,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.516,108.25
+5009243,Banjar,Jawa Barat,Jawa Barat,Kota Banjar,-7.372,108.501
+5009244,Banjaran,Jawa Barat,Jawa Barat,Kab. Bandung,-7.076,107.594
+5009245,Banjaran,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.956,108.305
+5009246,Banjarsari,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.496,108.579
+5009247,Banjarwangi,Jawa Barat,Jawa Barat,Kab. Garut,-7.4,107.81
+5009248,Bantar Gebang,Jawa Barat,Jawa Barat,Kota Bekasi,-6.33,106.980962
+5009249,Bantargadung,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.041,106.657
+5009250,Bantarkalong,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.579,108.001
+5009251,Bantarujeg,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.973,108.177
+5009252,Banyuresmi,Jawa Barat,Jawa Barat,Kab. Garut,-7.17,107.946
+5009253,Banyusari,Jawa Barat,Jawa Barat,Kab. Karawang,-6.288,107.528
+5009254,Baregbeg,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.294,108.343
+5009255,Baros,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.95,106.92
+5009256,Batujajar,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.88,107.427
+5009257,Batujaya,Jawa Barat,Jawa Barat,Kab. Karawang,-6.10142,107.21761
+5009258,Batununggal,Jawa Barat,Jawa Barat,Kota Bandung,-6.951,107.637
+5009259,Bayongbong,Jawa Barat,Jawa Barat,Kab. Garut,-7.276,107.808
+5009260,Beber,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.816,108.507
+5009261,Beji,Jawa Barat,Jawa Barat,Kota Depok,-6.38,106.806
+5009262,Bekasi Barat,Jawa Barat,Jawa Barat,Kota Bekasi,-6.234,106.973
+5009263,Bekasi Selatan,Jawa Barat,Jawa Barat,Kota Bekasi,-6.247,106.991
+5009264,Bekasi Timur,Jawa Barat,Jawa Barat,Kota Bekasi,-6.245,107.014
+5009265,Bekasi Utara,Jawa Barat,Jawa Barat,Kota Bekasi,-6.205,106.999
+5009266,Binong,Jawa Barat,Jawa Barat,Kab. Subang,-6.33,107.799
+5009267,Blanakan,Jawa Barat,Jawa Barat,Kab. Subang,-6.263,107.678
+5009268,Bogor Barat,Jawa Barat,Jawa Barat,Kota Bogor,-6.569,106.762
+5009269,Bogor Selatan,Jawa Barat,Jawa Barat,Kota Bogor,-6.6006,106.8058
+5009270,Bogor Tengah,Jawa Barat,Jawa Barat,Kota Bogor,-6.662,106.852
+5009271,Bogor Timur,Jawa Barat,Jawa Barat,Kota Bogor,-6.614,106.82
+5009272,Bogor Utara,Jawa Barat,Jawa Barat,Kota Bogor,-6.576,106.821
+5009273,Bojong,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.715,107.521
+5009274,Bojong Genteng,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.834,106.718
+5009275,Bojongasih,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.555,108.091
+5009276,Bojonggambir,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.573,107.897
+5009277,Bojonggede,Jawa Barat,Jawa Barat,Kab. Bogor,-6.5783,106.7873
+5009278,Bojongloa Kaler,Jawa Barat,Jawa Barat,Kota Bandung,-6.932,107.572
+5009279,Bojongloa Kidul,Jawa Barat,Jawa Barat,Kota Bandung,-6.946,107.581
+5009280,Bojongmangu,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.431,107.192
+5009281,Bojongpicung,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.58107,107.26867
+5009282,Bojongsari,Jawa Barat,Jawa Barat,Kota Depok,-6.382,106.735
+5009283,Bojongsoang,Jawa Barat,Jawa Barat,Kab. Bandung,-6.982,107.665
+5009284,Bongas,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.36,108.01
+5009285,Buahbatu,Jawa Barat,Jawa Barat,Kota Bandung,-6.948,107.638
+5009286,Buahdua,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.697,107.951
+5009287,Bungbulang,Jawa Barat,Jawa Barat,Kab. Garut,-7.426,107.431
+5009288,Bungursari,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.462,107.408
+5009289,Bungursari,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.308,108.159
+5009290,Cabangbungin,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.076,107.12
+5009291,Campaka,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.998312,107.142341
+5009292,Campaka,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.51,107.48
+5009293,Campaka Mulya,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.073,107.193
+5009294,Cangkuang,Jawa Barat,Jawa Barat,Kab. Bandung,-7.05,107.525
+5009295,Cantigi,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.29,108.161
+5009296,Caringin,Jawa Barat,Jawa Barat,Kab. Bogor,-6.737,106.86
+5009297,Caringin,Jawa Barat,Jawa Barat,Kab. Garut,-7.451,107.441
+5009298,Caringin,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.833,106.889
+5009299,Cariu,Jawa Barat,Jawa Barat,Kab. Bogor,-6.518,107.145
+5009300,Ciambar,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.801,106.816
+5009302,Ciampea,Jawa Barat,Jawa Barat,Kab. Bogor,-6.54738888888889,106.691194444444
+5009303,Ciampel,Jawa Barat,Jawa Barat,Kab. Karawang,-6.461,107.334
+5009304,Cianjur,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.82,107.126
+5009305,Ciasem,Jawa Barat,Jawa Barat,Kab. Subang,-6.36,107.65
+5009306,Ciater,Jawa Barat,Jawa Barat,Kab. Subang,-6.73,107.638
+5009307,Ciawi,Jawa Barat,Jawa Barat,Kab. Bogor,-6.662,106.852
+5009308,Ciawi,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.167,108.079
+5009309,Ciawigebang,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.952,108.537
+5009310,Cibadak,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.901,106.849
+5009311,Cibalong,Jawa Barat,Jawa Barat,Kab. Garut,-7.661,107.765
+5009312,Cibalong,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.535,108.342
+5009313,Cibarusah,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.432,107.1
+5009314,Cibatu,Jawa Barat,Jawa Barat,Kab. Garut,-7.1,107.977
+5009315,Cibatu,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.55133,107.5149
+5009316,Cibeber,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.95,107.152
+5009317,Cibeunying Kaler,Jawa Barat,Jawa Barat,Kota Bandung,-6.886,107.613
+5009318,Cibeunying Kidul,Jawa Barat,Jawa Barat,Kota Bandung,-6.898,107.63
+5009319,Cibeureum,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.086,108.646
+5009320,Cibeureum,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.93,106.948
+5009321,Cibeureum,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.355,108.243
+5009322,Cibingbin,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.05,108.683
+5009323,Cibinong,Jawa Barat,Jawa Barat,Kab. Bogor,-6.482,106.854
+5009324,Cibinong,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.30861111111111,107.1275
+5009325,Cibiru,Jawa Barat,Jawa Barat,Kota Bandung,-6.915,107.706
+5009326,Cibitung,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.22,107.09
+5009327,Cibitung,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.386,106.615
+5009328,Cibiuk,Jawa Barat,Jawa Barat,Kab. Garut,-7.065,107.918
+5009329,Cibogo,Jawa Barat,Jawa Barat,Kab. Subang,-6.55,107.81
+5009330,Cibuaya,Jawa Barat,Jawa Barat,Kab. Karawang,-6.07594444444444,107.214027777778
+5009331,Cibugel,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.969,108.038
+5009332,Cibungbulang,Jawa Barat,Jawa Barat,Kab. Bogor,-6.523,106.637
+5009333,Cicalengka,Jawa Barat,Jawa Barat,Kab. Bandung,-7.00062,107.823
+5009334,Cicantayan,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.917,106.792
+5009335,Cicendo,Jawa Barat,Jawa Barat,Kota Bandung,-6.901,107.562
+5009336,Cicurug,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.87857,106.7429
+5009337,Cidadap,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.291,106.938
+5009338,Cidadap,Jawa Barat,Jawa Barat,Kota Bandung,-6.863,107.593
+5009339,Cidahu,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.98,108.69
+5009340,Cidahu,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.758,106.727
+5009341,Cidaun,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.49055555555556,107.345
+5009342,Cidolog,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.433,108.378
+5009343,Cidolog,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.284,106.853
+5009344,Ciemas,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.176,106.513
+5009345,Cigalontang,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.295,107.938
+5009346,Cigandamekar,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.883,108.502
+5009347,Cigasong,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.824,108.216
+5009348,Cigedug,Jawa Barat,Jawa Barat,Kab. Garut,-7.325,107.794
+5009349,Cigombong,Jawa Barat,Jawa Barat,Kab. Bogor,-6.678,106.783
+5009350,Cigudeg,Jawa Barat,Jawa Barat,Kab. Bogor,-6.55277777777778,106.538583333333
+5009351,Cigugur,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.943,108.406
+5009352,Cigugur,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.622,108.389
+5009353,Cihampelas,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.943,107.431
+5009354,Cihaurbeuti,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.235,108.167
+5009355,Cihideung,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.53,108.28
+5009356,Cihurip,Jawa Barat,Jawa Barat,Kab. Garut,-7.498,107.846
+5009357,Cijambe,Jawa Barat,Jawa Barat,Kab. Subang,-6.627,107.787
+5009358,Cijati,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.272,107.004
+5009359,Cijeruk,Jawa Barat,Jawa Barat,Kab. Bogor,-6.736,106.815
+5009360,Cijeungjing,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.335,108.41
+5009361,Cijulang,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.71,108.45
+5009362,Cikadu,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.267,107.296
+5009363,Cikajang,Jawa Barat,Jawa Barat,Kab. Garut,-7.406,107.722
+5009364,Cikakak,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.866,106.536
+5009365,Cikalong,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.744,108.17
+5009366,Cikalongkulon,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.697,107.184
+5009367,Cikalongwetan,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.735,107.433
+5009368,Cikampek,Jawa Barat,Jawa Barat,Kab. Karawang,-6.372337,107.412207
+5009369,Cikancung,Jawa Barat,Jawa Barat,Kab. Bandung,-6.99882,107.81684
+5009370,Cikao,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.511,107.388
+5009371,Cikarang Barat,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.282,107.073
+5009372,Cikarang Pusat,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.328,107.188
+5009373,Cikarang Selatan,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.299,107.112
+5009374,Cikarang Timur,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.295,107.204
+5009375,Cikarang Utara,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.226,107.115
+5009376,Cikatomas,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.628,108.191
+5009377,Cikaum,Jawa Barat,Jawa Barat,Kab. Subang,-6.427,107.667
+5009378,Cikedung,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.528,108.101
+5009379,Cikelet,Jawa Barat,Jawa Barat,Kab. Garut,-7.566,107.627
+5009380,Cikembar,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.968,106.796
+5009381,Cikidang,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.885,106.636
+5009382,Cikijing,Jawa Barat,Jawa Barat,Kab. Majalengka,-7.017,108.332
+5009383,Cikole,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.914,106.942
+5009384,Cikoneng,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.281,108.203
+5009385,Cilaku,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.36,107.24
+5009386,Cilamaya Kulon,Jawa Barat,Jawa Barat,Kab. Karawang,-6.27055555555556,107.533361111111
+5009387,Cilamaya Wetan,Jawa Barat,Jawa Barat,Kab. Karawang,-6.27055555555556,107.533361111111
+5009388,Cilawu,Jawa Barat,Jawa Barat,Kab. Garut,-7.295,107.837
+5009389,Cilebak,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.142,108.534
+5009390,Cilebar,Jawa Barat,Jawa Barat,Kab. Karawang,-6.126,107.339
+5009391,Ciledug,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.899,108.715
+5009392,Cilengkrang,Jawa Barat,Jawa Barat,Kab. Bandung,-6.869,107.724
+5009393,Cileungsi,Jawa Barat,Jawa Barat,Kab. Bogor,-6.41425,106.962083333333
+5009394,Cileunyi,Jawa Barat,Jawa Barat,Kab. Bandung,-6.937,107.736
+5009395,Cililin,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.967,107.465
+5009396,Cilimus,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.87,108.426
+5009397,Cilodong,Jawa Barat,Jawa Barat,Kota Depok,-6.426,106.847
+5009398,Cimahi,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.993,108.628
+5009399,Cimahi Selatan,Jawa Barat,Jawa Barat,Kota Cimahi,-6.904,107.525
+5009400,Cimahi Tengah,Jawa Barat,Jawa Barat,Kota Cimahi,-6.882,107.509
+5009401,Cimahi Utara,Jawa Barat,Jawa Barat,Kota Cimahi,-6.853,107.547
+5009402,Cimalaka,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.81,107.95
+5009403,Cimanggis,Jawa Barat,Jawa Barat,Kota Depok,-6.367,106.863
+5009404,Cimanggu,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.199,106.667
+5009405,Cimanggung,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.946,107.851
+5009406,Cimaragas,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.382,108.409
+5009407,Cimaung,Jawa Barat,Jawa Barat,Kab. Bandung,-7.109,107.569
+5009408,Cimenyan,Jawa Barat,Jawa Barat,Kab. Bandung,-6.849,107.671
+5009409,Cimerak,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.744,108.338
+5009410,Cinambo,Jawa Barat,Jawa Barat,Kota Bandung,-6.928,107.675
+5009411,Cineam,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.424,108.295
+5009412,Cinere,Jawa Barat,Jawa Barat,Kota Depok,-6.333,106.789
+5009413,Cingambul,Jawa Barat,Jawa Barat,Kab. Majalengka,-7.0411,108.3
+5009414,Ciniru,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.052,108.475
+5009415,Ciomas,Jawa Barat,Jawa Barat,Kab. Bogor,-6.609,106.756
+5009416,Cipaku,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.233,108.33
+5009417,Cipanas,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.682,107.013
+5009418,Ciparay,Jawa Barat,Jawa Barat,Kab. Bandung,-7.06611,107.741
+5009419,Cipatat,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.829,107.393
+5009420,Cipatujah,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.7,108.04
+5009421,Cipayung,Jawa Barat,Jawa Barat,Kota Depok,-6.427,106.804
+5009422,Cipedes,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.46,107.989
+5009423,Cipeundeuy,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.742,107.367
+5009424,Cipeundeuy,Jawa Barat,Jawa Barat,Kab. Subang,-6.529,107.642583
+5009425,Cipicung,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.942,108.523
+5009426,Cipongkor,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.942,107.349
+5009427,Cipunagara,Jawa Barat,Jawa Barat,Kab. Subang,-6.495,107.875
+5009428,Ciracap,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.29,106.449
+5009429,Ciranjang,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.81222222222222,107.265277777778
+5009430,Cireunghas,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.914,107.036
+5009431,Cisaat,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.926,106.88
+5009432,Cisaga,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.308,108.465
+5009433,Cisalak,Jawa Barat,Jawa Barat,Kab. Subang,-6.7245,107.743
+5009434,Cisarua,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.802,107.538
+5009435,Cisarua,Jawa Barat,Jawa Barat,Kab. Bogor,-6.69802777777778,106.935027777778
+5009436,Cisarua,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.826,107.978
+5009437,Cisayong,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.245,108.093
+5009438,Ciseeng,Jawa Barat,Jawa Barat,Kab. Bogor,-6.446,106.691194444444
+5009439,Cisewu,Jawa Barat,Jawa Barat,Kab. Garut,-7.38,107.484
+5009440,Cisitu,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.875,108.029
+5009441,Cisolok,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.88,106.493
+5009442,Cisompet,Jawa Barat,Jawa Barat,Kab. Garut,-7.537,107.748
+5009443,Cisurupan,Jawa Barat,Jawa Barat,Kab. Garut,-7.31,107.695
+5009444,Citamiang,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.935,106.93
+5009445,Citeureup,Jawa Barat,Jawa Barat,Kab. Bogor,-6.502,106.892
+5009446,Ciwaringin,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.672,108.337
+5009447,Ciwaru,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.085,108.562
+5009448,Ciwidey,Jawa Barat,Jawa Barat,Kab. Bandung,-7.1,107.4667
+5009449,Coblong,Jawa Barat,Jawa Barat,Kota Bandung,-6.881,107.598
+5009450,Compreng,Jawa Barat,Jawa Barat,Kab. Subang,-6.42,107.87
+5009451,Congeang,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.74,108.01
+5009452,Cugenang,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.806,107.054
+5009453,Culamega,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.598,107.96
+5009454,Curugkembar,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.181,106.919
+5009455,Darangdan,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.67536,107.4267
+5009456,Darma,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.008,108.416
+5009457,Darmajaya,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.90795,108.05
+5009458,Dawuan,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.725,108.169
+5009459,Dawuan,Jawa Barat,Jawa Barat,Kab. Subang,-6.565,107.61
+5009460,Dayeuhkolot,Jawa Barat,Jawa Barat,Kab. Bandung,-6.971,107.614
+5009461,Depok,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.731,108.435
+5009462,Dramaga,Jawa Barat,Jawa Barat,Kab. Bogor,-6.55358,106.74983
+5009463,Dukupuntang,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.754,108.469
+5009464,Gabuswetan,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.45,108.04
+5009465,Ganeas,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.862,107.978
+5009466,Gantar,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.53,107.97
+5009467,Garawangi,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.014,108.494
+5009468,Garut Kota,Jawa Barat,Jawa Barat,Kab. Garut,-7.231,107.898
+5009469,Gebang,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.832,108.702
+5009470,Gedebage,Jawa Barat,Jawa Barat,Kota Bandung,-6.952,107.68
+5009471,Geger Bitung,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.008,106.995
+5009472,Gegesik,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.6,108.42
+5009473,Gekbrong,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.863492,107.02759
+5009474,Gempol,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.423,108.215
+5009475,Greged (Greget),Jawa Barat,Jawa Barat,Kab. Cirebon,-6.816,108.532
+5009476,Gunung Guruh,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.884,106.864
+5009477,Gunung Jati (Cirebon Utara),Jawa Barat,Jawa Barat,Kab. Cirebon,-6.668,108.494
+5009478,Gunung Putri,Jawa Barat,Jawa Barat,Kab. Bogor,-6.441,106.906
+5009479,Gunung Sindur,Jawa Barat,Jawa Barat,Kab. Bogor,-6.388,106.687
+5009480,Gununghalu,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.964,107.235
+5009481,Gunungpuyuh,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.892,106.892
+5009482,Gunungtanjung,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.428,108.268
+5009483,Hantara,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.059,108.424
+5009484,Harjamukti,Jawa Barat,Jawa Barat,Kota Cirebon,-6.76036,108.53203
+5009485,Haurgeulis,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.445,107.901
+5009486,Haurwangi,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.848,107.297
+5009487,Ibun,Jawa Barat,Jawa Barat,Kab. Bandung,-7.115,107.771
+5009488,Indihiang,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.291,108.184
+5009489,Indramayu,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.41,108.27
+5009490,Jalaksana,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.917,108.432
+5009491,Jalan Cagak,Jawa Barat,Jawa Barat,Kab. Subang,-6.66,107.67
+5009492,Jamanis,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.187,108.146
+5009493,Jamblang,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.672,108.437
+5009494,Jampangkulon,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.26,106.63
+5009495,Jampangtengah,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.071,106.812
+5009496,Japara,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.913,108.517
+5009497,Jasinga,Jawa Barat,Jawa Barat,Kab. Bogor,-6.47347222222222,106.468
+5009498,Jati Asih,Jawa Barat,Jawa Barat,Kota Bekasi,-6.293,106.96
+5009499,Jati Sampurna,Jawa Barat,Jawa Barat,Kota Bekasi,-6.369,106.919
+5009500,Jatibarang,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.449,108.247
+5009501,Jatigede,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.877,108.147
+5009502,Jatiluhur,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.524,107.352
+5009503,Jatinagara,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.186,108.368
+5009504,Jatinangor,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.92222222222222,107.771944444444
+5009505,Jatinunggal,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.947,108.16
+5009506,Jatisari,Jawa Barat,Jawa Barat,Kab. Karawang,-6.343775,107.526456
+5009507,Jatitujuh,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.664,108.286
+5009508,Jatiwangi,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.73,108.26
+5009509,Jatiwaras,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.504,108.162
+5009510,Jayakerta,Jawa Barat,Jawa Barat,Kab. Karawang,-6.052,107.273
+5009511,Jonggol,Jawa Barat,Jawa Barat,Kab. Bogor,-6.51,107.02
+5009512,Juntinyuat,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.43,108.44
+5009513,Kabandungan,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.785,106.586
+5009514,Kadipaten,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.76,108.17
+5009515,Kadipaten,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.108,108.08
+5009516,Kadudampit,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.856,106.946
+5009517,Kadugede,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.01,108.41
+5009518,Kadungora,Jawa Barat,Jawa Barat,Kab. Garut,-7.076,107.859
+5009519,Kadupandak,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.232,107.036
+5009520,Kalapanunggal,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.004,106.92
+5009521,Kalibunder,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.237,106.735
+5009522,Kalijati,Jawa Barat,Jawa Barat,Kab. Subang,-6.541,107.692
+5009523,Kalimanggis,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.949,108.593
+5009524,Kalipucang,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.631,108.638
+5009525,Kaliwedi,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.585,108.35
+5009526,Kandanghaur,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.359,108.054
+5009527,Kapetakan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.567,108.471
+5009528,Karangampel,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.47,108.414
+5009529,Karangbahagia,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.205,107.185
+5009530,Karangjaya,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.455,108.359
+5009531,Karangkancana,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.101,108.658
+5009532,Karangnunggal,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.687,108.087
+5009533,Karangpawitan,Jawa Barat,Jawa Barat,Kab. Garut,-7.207,107.91
+5009534,Karangsembung,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.844,108.627
+5009535,Karangtengah,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.787,107.14
+5009536,Karangtengah,Jawa Barat,Jawa Barat,Kab. Garut,-7.155,108.015
+5009537,Karangwareng,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.89,108.62
+5009538,Karawang Barat,Jawa Barat,Jawa Barat,Kab. Karawang,-6.255,107.285
+5009539,Karawang Timur,Jawa Barat,Jawa Barat,Kab. Karawang,-6.29,107.353
+5009540,Kasokandel,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.778,108.194
+5009541,Kasomalang,Jawa Barat,Jawa Barat,Kab. Subang,-6.701,107.722
+5009542,Katapang,Jawa Barat,Jawa Barat,Kab. Bandung,-7.006,107.551
+5009543,Kawali,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.13,108.35
+5009544,Kawalu,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.404,108.164
+5009545,Kebonpedes,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.944,106.973
+5009546,Kedawung (Cirebon Barat),Jawa Barat,Jawa Barat,Kab. Cirebon,-6.716,108.514
+5009547,Kedokan Bunder,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.504,108.384
+5009548,Kedungwaringin,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.248,107.247
+5009549,Kejaksaan,Jawa Barat,Jawa Barat,Kota Cirebon,-6.764,108.516
+5009550,Kemang,Jawa Barat,Jawa Barat,Kab. Bogor,-6.497,106.74
+5009551,Kersamanah,Jawa Barat,Jawa Barat,Kab. Garut,-7.074,107.989
+5009552,Kertajati,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.637,108.059
+5009553,Kertasari,Jawa Barat,Jawa Barat,Kab. Bandung,-7.242,107.669
+5009554,Kertasemaya,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.302,108.29
+5009555,Kiara Pedes,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.6458,107.57965
+5009556,Kiaracondong,Jawa Barat,Jawa Barat,Kota Bandung,-6.923,107.634
+5009557,Klangenan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.681,108.414
+5009558,Klapanunggal,Jawa Barat,Jawa Barat,Kab. Bogor,-6.488,106.947
+5009559,Klari,Jawa Barat,Jawa Barat,Kab. Karawang,-6.327907,107.374125
+5009560,Kosambi,Jawa Barat,Jawa Barat,Kota Cirebon,-6.722,108.522
+5009561,Kotabaru,Jawa Barat,Jawa Barat,Kab. Karawang,-6.396,107.456
+5009562,Kramatmulya,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.94,108.45
+5009563,Krangkeng,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.5,108.48
+5009564,Kroya,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.5,107.971
+5009565,Kuningan,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.981,108.458
+5009566,Kutawaluya,Jawa Barat,Jawa Barat,Kab. Karawang,-6.162881,107.302719
+5009567,Kutawaringin,Jawa Barat,Jawa Barat,Kab. Bandung,-6.997,107.443
+5009568,Lakbok,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.401,108.621
+5009569,Langensari,Jawa Barat,Jawa Barat,Kota Banjar,-7.371,108.596
+5009570,Langkaplancar,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.559,108.364
+5009571,Lebakwangi,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.008,108.546
+5009572,Legon Kulon,Jawa Barat,Jawa Barat,Kab. Subang,-6.23,107.792
+5009573,Lelea,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.481,108.156
+5009574,Leles,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.359,107.015
+5009575,Leles,Jawa Barat,Jawa Barat,Kab. Garut,-7.19,107.9
+5009576,Lemahabang,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.83,108.62
+5009577,Lemahabang,Jawa Barat,Jawa Barat,Kab. Karawang,-6.272369,107.466158
+5009578,Lemahsugih,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.82,108.34
+5009579,Lemahwungkuk,Jawa Barat,Jawa Barat,Kota Cirebon,-6.755,108.507
+5009580,Lembang,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.81,107.62
+5009581,Lembursitu,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.96,106.867
+5009582,Lengkong,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.25714,106.6857
+5009583,Lengkong,Jawa Barat,Jawa Barat,Kota Bandung,-6.934,107.605
+5009584,Leuwigoong,Jawa Barat,Jawa Barat,Kab. Garut,-7.115,107.914
+5009585,Leuwiliang,Jawa Barat,Jawa Barat,Kab. Bogor,-6.5635,106.62983
+5009586,Leuwimunding,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.743,108.306
+5009587,Leuwisadeng,Jawa Barat,Jawa Barat,Kab. Bogor,-6.555,106.579
+5009588,Leuwisari,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.302,108.059
+5009589,Ligung,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.662,108.214
+5009590,Limbangan,Jawa Barat,Jawa Barat,Kab. Garut,-7.036,107.973
+5009591,Limo,Jawa Barat,Jawa Barat,Kota Depok,-6.366,106.78
+5009592,Lohbener,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.4,108.216
+5009593,Losarang,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.41,108.15
+5009594,Losari,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.793,108.735
+5009595,Lumbung,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.154,108.294
+5009596,Luragung,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.021,108.593
+5009597,Maja,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.9,108.23
+5009598,Majalaya,Jawa Barat,Jawa Barat,Kab. Bandung,-7.015,107.764
+5009599,Majalaya,Jawa Barat,Jawa Barat,Kab. Karawang,-6.308608,107.367568
+5009600,Majalengka,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.833,108.233
+5009601,Malangbong,Jawa Barat,Jawa Barat,Kab. Garut,-7.06,108.06
+5009602,Malausma,Jawa Barat,Jawa Barat,Kab. Majalengka,-7.035,108.205
+5009603,Maleber,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.054,108.542
+5009604,Mandalajati,Jawa Barat,Jawa Barat,Kota Bandung,-6.895,107.663
+5009605,Mande,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.77,107.2
+5009606,Mandirancan,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.841,108.379
+5009607,Mangkubumi,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.345,108.152
+5009608,Mangunjaya,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.477,108.676
+5009609,Mangunreja,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.384,108.054
+5009610,Maniis,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.679,107.274
+5009611,Manonjaya,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.379,108.283
+5009612,Margaasih,Jawa Barat,Jawa Barat,Kab. Bandung,-6.955,107.544
+5009613,Margahayu,Jawa Barat,Jawa Barat,Kab. Bandung,-6.978,107.576
+5009614,Medan Satria,Jawa Barat,Jawa Barat,Kota Bekasi,-6.194,106.973
+5009615,Megamendung,Jawa Barat,Jawa Barat,Kab. Bogor,-6.65,106.884
+5009616,Mekarmukti,Jawa Barat,Jawa Barat,Kab. Garut,-7.524,107.519
+5009617,Muara Gembong,Jawa Barat,Jawa Barat,Kab. Bekasi,-5.987,107.04
+5009618,Mundu,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.79,108.57
+5009619,Mustika Jaya,Jawa Barat,Jawa Barat,Kota Bekasi,-6.288,107.028
+5009620,Nagrak,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.826,106.82
+5009621,Nagreg,Jawa Barat,Jawa Barat,Kab. Bandung,-7.029,107.882
+5009622,Nanggung,Jawa Barat,Jawa Barat,Kab. Bogor,-6.657,106.658
+5009623,Naringgul,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.324,107.349
+5009624,Ngamprah,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.842,107.509
+5009625,Nusaherang,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.014,108.397
+5009626,Nyalindung,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.004,106.92
+5009627,Pabedilan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.862,108.74
+5009628,Pabuaran,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.896,108.702
+5009629,Pabuaran,Jawa Barat,Jawa Barat,Kab. Subang,-6.42,107.59
+5009630,Pabuaran,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.214,106.66
+5009631,Pacet,Jawa Barat,Jawa Barat,Kab. Bandung,-7.122,107.694
+5009632,Pacet,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.71265,107.00633
+5009633,Padaherang,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.546,108.609
+5009634,Padakembang,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.311,108.086
+5009635,Padalarang,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.829,107.469
+5009636,Pagaden,Jawa Barat,Jawa Barat,Kab. Subang,-6.55,107.81
+5009637,Pagaden Barat,Jawa Barat,Jawa Barat,Kab. Subang,-6.486,107.702
+5009638,Pagelaran,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.2111,107.14072
+5009639,Pagerageung,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.096,108.104
+5009640,Pakenjeng,Jawa Barat,Jawa Barat,Kab. Garut,-7.486,107.617
+5009641,Pakisjaya,Jawa Barat,Jawa Barat,Kab. Karawang,-5.997854,107.115478
+5009642,Palasah,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.74,108.263
+5009643,Palimanan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.442,108.254
+5009644,Pamanukan,Jawa Barat,Jawa Barat,Kab. Subang,-6.308,107.766
+5009645,Pamarican,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.462,108.501
+5009646,Pameungpeuk,Jawa Barat,Jawa Barat,Kab. Bandung,-7.015,107.569
+5009647,Pameungpeuk,Jawa Barat,Jawa Barat,Kab. Garut,-7.621,107.693
+5009648,Pamijahan,Jawa Barat,Jawa Barat,Kab. Bogor,-6.679,106.659
+5009649,Pamulihan,Jawa Barat,Jawa Barat,Kab. Garut,-7.267,107.749
+5009650,Pamulihan,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.9,107.934
+5009651,Panawangan,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.102,108.348
+5009652,Pancalang,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.822,108.457
+5009653,Pancatengah,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.684,108.16
+5009654,Pancoran mas,Jawa Barat,Jawa Barat,Kota Depok,-6.407,106.802
+5009655,Pangalengan,Jawa Barat,Jawa Barat,Kab. Bandung,-7.198,107.571
+5009656,Pangandaran,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.683,108.641
+5009657,Pangatikan,Jawa Barat,Jawa Barat,Kab. Garut,-7.173,107.988
+5009658,Pangenan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.801,108.633
+5009659,Pangkalan,Jawa Barat,Jawa Barat,Kab. Karawang,-6.438982,107.2329
+5009660,Panguragan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.613,108.422
+5009661,Panjalu,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.171,108.242
+5009662,Panumbangan,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.123,108.146
+5009663,Panyileukan,Jawa Barat,Jawa Barat,Kota Bandung,-6.932,107.689
+5009664,Panyingkiran,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.815,108.145
+5009665,Parakan Salak,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.79806,106.70722
+5009666,Parigi,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.702,108.496
+5009667,Parompong,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.767,107.593
+5009668,Parung,Jawa Barat,Jawa Barat,Kab. Bogor,-6.43,106.72
+5009669,Parung Panjang,Jawa Barat,Jawa Barat,Kab. Bogor,-6.38,106.55
+5009670,Parungkuda,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.843,106.743
+5009671,Parungponteng,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.49,108.096
+5009672,Pasaleman,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.926,108.722
+5009673,Pasawahan,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.838,108.361
+5009674,Pasawahan,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.536,107.513
+5009675,Paseh,Jawa Barat,Jawa Barat,Kab. Bandung,-7.058,107.758
+5009676,Paseh,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.4781,108.0044
+5009677,Pasekan,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.279,108.267
+5009678,Pasirjambu,Jawa Barat,Jawa Barat,Kab. Bandung,-7.2057,107.40278
+5009679,Pasirkuda,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.182,107.248
+5009680,Pasirwangi,Jawa Barat,Jawa Barat,Kab. Garut,-7.206,107.736
+5009681,Pataruman,Jawa Barat,Jawa Barat,Kota Banjar,-7.391,108.524
+5009682,Patok Beusi,Jawa Barat,Jawa Barat,Kab. Subang,-6.368,107.553
+5009683,Patrol,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.3,107.98
+5009684,Pebayuran,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.14,107.24
+5009685,Pedes,Jawa Barat,Jawa Barat,Kab. Karawang,-6.124798,107.386819
+5009686,Pekalipan,Jawa Barat,Jawa Barat,Kota Cirebon,-6.723,108.555
+5009687,Peundeuy,Jawa Barat,Jawa Barat,Kab. Garut,-7.549,107.874
+5009688,Plered,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.671,108.508
+5009689,Plered,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.649,107.346
+5009690,Plumbon,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.715,108.437
+5009691,Pondok Gede,Jawa Barat,Jawa Barat,Kota Bekasi,-6.278,106.913
+5009692,Pondok Melati,Jawa Barat,Jawa Barat,Kota Bekasi,-6.313,106.924
+5009693,Pondok Salam,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.61883,107.4978
+5009694,Purabaya,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.088,106.892
+5009695,Purbaratu,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.331,108.239
+5009696,Purwadadi,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.422,108.627
+5009697,Purwadadi,Jawa Barat,Jawa Barat,Kab. Subang,-6.451,107.655
+5009698,Purwaharja,Jawa Barat,Jawa Barat,Kota Banjar,-7.348,108.536
+5009699,Purwakarta,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.53,107.45
+5009700,Purwasari,Jawa Barat,Jawa Barat,Kab. Karawang,-6.372,107.409
+5009701,Pusakajaya,Jawa Barat,Jawa Barat,Kab. Subang,-6.308,107.851
+5009702,Pusakanagara,Jawa Barat,Jawa Barat,Kab. Subang,-6.27,107.91
+5009703,Puspahiang,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.423,107.946
+5009704,Rajadesa,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.178,108.385
+5009705,Rajagaluh,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.833,108.294
+5009706,Rajapolah,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.216,108.145
+5009707,Ranca Bungur,Jawa Barat,Jawa Barat,Kab. Bogor,-6.518,106.703
+5009708,Rancabali,Jawa Barat,Jawa Barat,Kab. Bandung,-7.19,107.33
+5009709,Rancaekek,Jawa Barat,Jawa Barat,Kab. Bandung,-6.977,107.765
+5009710,Rancah,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.235,108.428
+5009711,Rancakalong,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.729,107.874
+5009712,Rancasari,Jawa Barat,Jawa Barat,Kota Bandung,-6.953,107.655
+5009713,Rawalumbu,Jawa Barat,Jawa Barat,Kota Bekasi,-6.292,106.973
+5009714,Rawamerta,Jawa Barat,Jawa Barat,Kab. Karawang,-6.23746,107.343975
+5009715,Regol,Jawa Barat,Jawa Barat,Kota Bandung,-6.939,107.595
+5009716,Rengasdengklok,Jawa Barat,Jawa Barat,Kab. Karawang,-6.163694,107.3
+5009717,Rongga,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-7.03,107.32
+5009718,Rumpin,Jawa Barat,Jawa Barat,Kab. Bogor,-6.418,106.621
+5009719,Sadananya,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.257,108.238
+5009720,Sagalaherang,Jawa Barat,Jawa Barat,Kab. Subang,-6.683,107.584
+5009721,Sagaranten,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.21,106.894
+5009722,Saguling,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.94749,107.408
+5009723,Salawu,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.368,107.916
+5009724,Salopa,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.493,108.214
+5009725,Samarang,Jawa Barat,Jawa Barat,Kab. Garut,-7.213,107.83
+5009726,Sariwangi,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.294,108.025
+5009727,Sawangan,Jawa Barat,Jawa Barat,Kota Depok,-6.385,106.847
+5009728,Sedong,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.871,108.54
+5009729,Selaawi,Jawa Barat,Jawa Barat,Kab. Garut,-6.997,107.974
+5009730,Selajambe,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.107,108.429
+5009731,Serang Baru,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.375,107.113
+5009732,Serangpanjang,Jawa Barat,Jawa Barat,Kab. Subang,-6.654,107.545
+5009733,Setu,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.3431,107.0438
+5009734,Sidamulih,Jawa Barat,Jawa Barat,Kab. Pangandaran,-7.619,108.515
+5009735,Simpenan,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.094,106.529
+5009736,Sindang,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.338,108.256
+5009737,Sindang,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.833,108.299
+5009738,Sindangagung,Jawa Barat,Jawa Barat,Kab. Kuningan,-6.967,108.511
+5009739,Sindangbarang,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.452801,107.137886
+5009740,Sindangkasih,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.289,108.201
+5009741,Sindangkerta,Jawa Barat,Jawa Barat,Kab. Bandung Barat,-6.99,107.4
+5009742,Sindangwangi,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.823,108.306
+5009743,Singajaya,Jawa Barat,Jawa Barat,Kab. Garut,-7.499,107.913
+5009744,Singaparna,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.347,108.092
+5009745,Situraja,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.844,108.007
+5009746,Sliyeg,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.445,108.28
+5009747,Sodonghilir,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.488,108.053
+5009748,Solokan Jeruk,Jawa Barat,Jawa Barat,Kab. Bandung,-7.01992,107.7493
+5009750,Subang,Jawa Barat,Jawa Barat,Kab. Kuningan,-7.131,108.52
+5009752,Sucinaraja,Jawa Barat,Jawa Barat,Kab. Garut,-7.215,107.983
+5009753,Kota Sukabumi,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.861,106.956
+5009754,Sukadana,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.27,108.415
+5009755,Sukagumiwang,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.605,108.3
+5009756,Sukahaji,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.81,108.29
+5009757,Sukahening,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.212,108.082
+5009758,Sukajadi,Jawa Barat,Jawa Barat,Kota Bandung,-6.883,107.595
+5009759,Sukajaya,Jawa Barat,Jawa Barat,Kab. Bogor,-6.64,106.461
+5009760,Sukakarya,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.135,107.183
+5009761,Sukalarang,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.898,106.82
+5009762,Sukaluyu,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.834,107.204
+5009763,Sukamakmur,Jawa Barat,Jawa Barat,Kab. Bogor,-6.612,107.014
+5009764,Sukamantri,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.08,108.212
+5009765,Sukanagara,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.01,107.07
+5009766,Sukaraja,Jawa Barat,Jawa Barat,Kab. Bogor,-6.556,106.851
+5009767,Sukaraja,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.88,107.004
+5009768,Sukaraja,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.441,108.124
+5009769,Sukarame,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.372,108.132
+5009770,Sukaratu,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.35,108.11
+5009771,Sukaresik,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.156,108.165
+5009772,Sukaresmi,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.677,107.084
+5009773,Sukaresmi,Jawa Barat,Jawa Barat,Kab. Garut,-7.246,107.733
+5009774,Sukasari,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.565,107.236
+5009775,Sukasari,Jawa Barat,Jawa Barat,Kab. Subang,-6.464,107.616
+5009776,Sukasari,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.862,107.765
+5009777,Sukasari,Jawa Barat,Jawa Barat,Kota Bandung,-6.86,107.568
+5009778,Sukatani,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.186,107.15
+5009779,Sukatani,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.633,107.425
+5009780,Sukawangi,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.132,107.101
+5009781,Sukawening,Jawa Barat,Jawa Barat,Kab. Garut,-7.145,107.983
+5009782,Sukmajaya,Jawa Barat,Jawa Barat,Kota Depok,-6.405,106.844
+5009783,Sukra,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.305,107.915
+5009784,Sumber,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.762,108.472
+5009785,Sumberjaya,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.69,108.3
+5009786,Sumedang Selatan,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.998,108.118
+5009787,Sumedang Utara,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.826,107.92
+5009788,Sumurbandung,Jawa Barat,Jawa Barat,Kota Bandung,-6.914,107.608
+5009789,Surade,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.336,106.575
+5009790,Suranenggala,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.632,108.486
+5009791,Surian,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.628,107.882
+5009792,Susukan,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.622,108.29
+5009793,Susukan Lebak,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.863,108.578
+5009794,Tajur Halang,Jawa Barat,Jawa Barat,Kab. Bogor,-6.459,106.744
+5009795,Takokak,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.086,106.993
+5009796,Talaga,Jawa Barat,Jawa Barat,Kab. Majalengka,-6.967,108.367
+5009797,Talegong,Jawa Barat,Jawa Barat,Kab. Garut,-7.299,107.462
+5009798,Talun (Cirebon Selatan),Jawa Barat,Jawa Barat,Kab. Cirebon,-6.777,108.489
+5009799,Tamansari,Jawa Barat,Jawa Barat,Kab. Bogor,-6.664,106.74
+5009800,Tamansari,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.392,108.214
+5009801,Tambakdahan,Jawa Barat,Jawa Barat,Kab. Subang,-6.345,107.77
+5009802,Tambaksari,Jawa Barat,Jawa Barat,Kab. Ciamis,-7.238,108.513
+5009803,Tambelang,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.172,107.112
+5009804,Tambun selatan,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.27,107.049
+5009805,Tambun Utara,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.19,107.063
+5009806,Tanah Sereal,Jawa Barat,Jawa Barat,Kota Bogor,-6.558,106.79
+5009807,Tanggeung,Jawa Barat,Jawa Barat,Kab. Cianjur,-7.2635,107.116233333333
+5009808,Tanjung Siang,Jawa Barat,Jawa Barat,Kab. Subang,-6.76,107.811
+5009809,Tanjungjaya,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.419,108.097
+5009810,Tanjungkerta,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.764,107.916
+5009811,Tanjungmedar,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.727,107.86
+5009812,Tanjungsari,Jawa Barat,Jawa Barat,Kab. Bogor,-6.604,107.138
+5009813,Tanjungsari,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.9,107.8
+5009814,Tapos,Jawa Barat,Jawa Barat,Kota Depok,-6.42,106.877
+5009815,Taraju,Jawa Barat,Jawa Barat,Kab. Tasikmalaya,-7.444,107.96
+5009816,Tarogong Kaler,Jawa Barat,Jawa Barat,Kab. Garut,-7.135,107.857
+5009817,Tarogong Kidul,Jawa Barat,Jawa Barat,Kab. Garut,-7.216,107.849
+5009818,Tarumajaya,Jawa Barat,Jawa Barat,Kab. Bekasi,-6.118,106.999
+5009819,Tawang,Jawa Barat,Jawa Barat,Kota Tasikmalaya,-7.341,108.21
+5009820,Tegal Buleud,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.21,106.4
+5009821,Tegalwaru,Jawa Barat,Jawa Barat,Kab. Karawang,-6.514,107.211
+5009822,Tegalwaru,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.601,107.34
+5009823,Telagasari,Jawa Barat,Jawa Barat,Kab. Karawang,-6.267609,107.407447
+5009824,Telukjambe Barat,Jawa Barat,Jawa Barat,Kab. Karawang,-6.328,107.236
+5009825,Telukjambe Timur,Jawa Barat,Jawa Barat,Kab. Karawang,-6.38,107.339
+5009826,Tempuran,Jawa Barat,Jawa Barat,Kab. Karawang,-6.208898,107.410621
+5009827,Tengah Tani,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.688,108.542
+5009828,Tenjo,Jawa Barat,Jawa Barat,Kab. Bogor,-6.371,106.481
+5009829,Tenjolaya,Jawa Barat,Jawa Barat,Kab. Bogor,-6.652,106.69
+5009830,Terisi,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.553,107.937
+5009831,Tirtajaya,Jawa Barat,Jawa Barat,Kab. Karawang,-6.36123,107.462985
+5009832,Tirtamulya,Jawa Barat,Jawa Barat,Kab. Karawang,-6.359643,107.466158
+5009833,Tomo,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.76166666666667,108.135833333333
+5009834,Tukdana,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.55,108.32
+5009835,Ujung Jaya,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.71,108.1
+5009836,Ujungberung,Jawa Barat,Jawa Barat,Kota Bandung,-6.905,107.687
+5009837,Wado,Jawa Barat,Jawa Barat,Kab. Sumedang,-6.995,108.129
+5009838,Waled,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.908,108.65
+5009839,Waluran,Jawa Barat,Jawa Barat,Kab. Sukabumi,-7.185,106.622
+5009840,Wanaraja,Jawa Barat,Jawa Barat,Kab. Garut,-7.186,107.98
+5009841,Wanayasa,Jawa Barat,Jawa Barat,Kab. Purwakarta,-6.66101,107.55503
+5009842,Warudoyong,Jawa Barat,Jawa Barat,Kota Sukabumi,-6.929,106.914
+5009843,Warung Kiara,Jawa Barat,Jawa Barat,Kab. Sukabumi,-6.982,106.714
+5009844,Warungkondang,Jawa Barat,Jawa Barat,Kab. Cianjur,-6.863,107.057
+5009845,Weru,Jawa Barat,Jawa Barat,Kab. Cirebon,-6.717,108.477
+5009846,Widasari,Jawa Barat,Jawa Barat,Kab. Indramayu,-6.462,108.235
