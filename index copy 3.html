@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leaflet Map with Image Overlay</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+  <style>
+    #map {
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+  <script>
+    // Inisialisasi peta Leaflet
+    var map = L.map('map').setView([-2.5489, 118.0149], 5);
+
+    // Tambahkan layer peta dasar OpenStreetMap
+    // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    //   attribution: 'Map data &copy; OpenStreetMap contributors'
+    // }).addTo(map);
+
+    // URL gambar overlay
+    var imageUrl = 'https://signature.bmkg.go.id/api21/mpl_req/ecmwf/temp/1000/2023071812/2023072003/{z}/{x}/{y}.png?ci=1&overlays=contourf';
+
+    // Mencetak URL gambar menggunakan console log
+    console.log('Image URL:', imageUrl);
+
+    // Batas koordinat peta
+    var bounds = L.latLngBounds([[-11, 94], [6, 141]]);
+
+    // Tambahkan overlay gambar ke peta dengan z-index 1000
+    L.tileLayer('https://signature.bmkg.go.id/api21/mpl_req/ecmwf/temp/1000/2023071812/2023072003/{z}/{x}/{y}.png?ci=1&overlays=contourf', {
+     tms:true
+    }).addTo(map);
+  </script>
+</body>
+</html>
