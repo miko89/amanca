@@ -1475,7 +1475,7 @@
     }
 
     // Radar Data
-    var radarID = 'BKS';
+    var radarID = 'JAK';
     var token = 'd55483ba0ac25dda1596bb7115351a9570d04324123d55cf14a58b9c8cf6';
     var urlImage = 'https://radar.bmkg.go.id:8090/sidarmaimage?' + 'token=' + token + '&radar=' + radarID;
 
@@ -1515,7 +1515,7 @@
 
     // Function to extract date and time from the radar image URL
     function extractDateTimeFromRadarImageUrl(imageUrlRadar) {
-        var dateTimeString = imageUrlRadar.match(/BKS-(\d{8})-(\d{2})(\d{2})\.png/);
+        var dateTimeString = imageUrlRadar.match(/JAK-(\d{8})-(\d{2})(\d{2})\.png/);
 
         if (dateTimeString && dateTimeString.length >= 4) {
             var dateString = dateTimeString[1];
