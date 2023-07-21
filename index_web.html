@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaflet Map</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        var map;
+        var markers = [];
+
+        function fetchData() {
+            // Fetch JSON data from file
+            fetch('data/outputjakarta.json')
+                .then(response => response.json())
+                .then(jsonData => {
+                    // Clear previous markers
+                    markers.forEach(function(marker) {
+                        marker.remove();
+                    });
+                    markers = [];
+
+                    // Initialize Leaflet map if not already initialized
+                    if (!map) {
+                        map = L.map('map').setView([-6.3, 107.5], 10);
+
+                        // Add a tile layer to the map
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+                            maxZoom: 18,
+                        }).addTo(map);
+                    }
+
+                    // Get the current time
+                    var currentTime = new Date();
+
+                    // Loop through the JSON data
+                    jsonData.forEach(function (data) {
+                        // Extract coordinates and weather information
+                        var latitude = data.lintang;
+                        var longitude = data.bujur;
+                        var weather = data.weather;
+
+                        // Find the nearest weather data based on the date and time
+                        var nearestWeather = weather.reduce(function (nearest, w) {
+                            var weatherTime = new Date(w.tanggal);
+                            return (weatherTime > nearest && weatherTime <= currentTime) ? weatherTime : nearest;
+                        }, new Date(0));
+
+                        // Find the weather entry that matches the nearest date and time
+                        var selectedWeather = weather.find(function (w) {
+                            return new Date(w.tanggal).getTime() === nearestWeather.getTime();
+                        });
+
+                        if (selectedWeather) {
+                            // Extract the weather value
+                            var cuaca = selectedWeather.cuaca;
+
+                            // Determine the color of the marker based on the weather value
+                            var markerColor;
+                            if (cuaca > 90) {
+                                markerColor = 'red';
+                            } else if (cuaca > 80) {
+                                markerColor = 'orange';
+                            } else {
+                                markerColor = 'green';
+                            }
+
+                            // Create a marker with the specified icon
+                            var marker = L.marker([latitude, longitude], {
+                                icon: L.icon({
+                                    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-' + markerColor + '.png',
+                                    iconSize: [25, 41],
+                                    iconAnchor: [12, 41]
+                                })
+                            }).addTo(map);
+
+                            // Create popup content with the selected weather information
+                            var popupContent = "<h3>" + data.kecamatan + "</h3>";
+                            popupContent += "<p>Date: " + selectedWeather.tanggal + "</p>";
+                            popupContent += "<p>Weather: " + selectedWeather.cuaca + "</p>";
+                            popupContent += "<p>Temperature: " + selectedWeather.suhu + "</p>";
+                            popupContent += "<p>Humidity: " + selectedWeather.rh + "</p>";
+                            popupContent += "<p>Wind Direction: " + selectedWeather.arah + "</p>";
+                            popupContent += "<p>Wind Speed: " + selectedWeather.kec + "</p>";
+
+                            // Bind popup to the marker
+                            marker.bindPopup(popupContent);
+
+                            // Store the marker in the markers array
+                            markers.push(marker);
+                        }
+                    });
+                })
+                .catch(error => console.error(error));
+        }
+
+        // Fetch data initially
+        fetchData();
+
+        // Fetch data every 3 hours (in milliseconds)
+        setInterval(fetchData, 3 * 60 * 60 * 1000);
+
+var radarID = 'JAK'
+var token = 'd55483ba0ac25dda1596bb7115351a9570d04324123d55cf14a58b9c8cf6'
+var urlImage='https://radar.bmkg.go.id:8090/sidarmaimage?'+'token='+token+'&radar='+radarID
+function getAPI(url){
+    var value= $.ajax({ 
+        url: url, 
+        async: false,
+        dataType:'json'
+    }).responseJSON;
+    return value;
+}
+var result = getAPI(urlImage);
+var latestImage = result.Latest.file
+var latLngBounds = L.latLngBounds([result.bounds.overlayBRC, result.bounds.overlayTLC]);
+var imageOverlay = L.imageOverlay(latestImage, latLngBounds, {
+    opacity: 0.8,
+    interactive: true
+})
+var osm=L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+    });
+var map = new L.map('map',{
+    zoomControl: false,
+    zoom:5,
+    center: new L.latLng(-0.251250,118.944833),
+    layers: osm
+});
+imageOverlay.addTo(map);
+map.fitBounds(latLngBounds);
+    </script>
+</body>
+</html>

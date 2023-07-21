@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BMKG - PT.BIB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" /> -->
+    <!-- <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript">function showLocalTime(a, b, c, d) { if (document.getElementById && document.getElementById(a)) { this.container = document.getElementById(a), this.displayversion = d; var e = "server-php" == b ? '<? print date("F d, Y H:i:s", time())?>' : "server-ssi" == b ? '<!--#config timefmt="%B %d, %Y %H:%M:%S"--><!--#echo var="DATE_LOCAL" -->' : "6/16/2021 10:12:05 PM"; this.localtime = this.serverdate = new Date(e), this.localtime.setTime(this.serverdate.getTime() + 60 * c * 1e3), this.updateTime(), this.updateContainer() } } function formatField(a, b) { if ("undefined" != typeof b) { var c = a > 12 ? a - 12 : a; return 0 == c ? 12 : c } return a <= 9 ? "0" + a : a } var minggutxt = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"], weekdaystxt = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], bulantxt = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"], monthstxt = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; showLocalTime.prototype.updateTime = function () { var a = this; this.localtime.setSeconds(this.localtime.getSeconds() + 1), setTimeout(function () { a.updateTime() }, 1e3) }, showLocalTime.prototype.updateContainer = function () { var a = this; if ("long" == this.displayversion) this.container.innerHTML = this.localtime.toLocaleString(); else { var b = this.localtime.getHours(), c = this.localtime.getMinutes(), d = this.localtime.getSeconds(), k = (this.localtime.getDate(), this.localtime.getUTCDate(), minggutxt[this.localtime.getDay()], bulantxt[this.localtime.getMonth()], weekdaystxt[this.localtime.getUTCDay()], monthstxt[this.localtime.getUTCMonth()], b + 1); k >= 24 && (k -= 24); var l = b + 2; l >= 24 && (l -= 24); var m = b - 7; m < 0 && (m += 24); this.container.innerHTML = "<span class='hari-digit hidden-sm'><a href='http://jam.bmkg.go.id/' target='_blank'>Standar Waktu Indonesia</a> </span><span class='FontDigit'>" + formatField(b) + ":" + formatField(c) + ":" + formatField(d) + " WIB / </span><span class='FontDigit'>" + formatField(m) + ":" + formatField(c) + ":" + formatField(d) + " UTC</span>" } setTimeout(function () { a.updateContainer() }, 1e3) };
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="js/leaflet.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="shortcut icon" href="img/ico/favicon-96x96.png" type="image/x-icon">
+    <link rel="icon" href="img/ico/favicon-96x96.png" type="image/x-icon">
+
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript" src="data/borneo.js"></script>
+
+    <script src="js/moment.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/moment-timezone-with-data.js"></script>
+
+    <script src="js/L.Control.MousePosition.js"></script>
+    <link rel="stylesheet" href="css/L.Control.MousePosition.css">
+    <script src="js/Leaflet.BigImage.js"></script>
+    <link rel="stylesheet" href="css/Leaflet.BigImage.css">
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="js/jput.min.js"></script>
+    <script type="text/javascript"></script>
+
+
+
+
+    <style>
+        /* <!-- ================================================== CSS-LABEL ========================================================= -->
+<!-- ================================================== SIDEBAR ========================================================= --> */
+
+
+        /* ================================================== CSS-HEADER ========================================================= */
+
+        .header {
+            background: rgb(224, 158, 15);
+            border-bottom: solid 10px;
+            padding: 0;
+            width: 100%;
+            height: 132px;
+            position: fixed;
+            z-index: 1500;
+            margin-left: 0;
+            margin-right: 0;
+
+        }
+
+        .navbar {
+            width: 100%;
+            background-image: url('img/background_header.svg');
+        }
+
+        @media (max-width: 1500px) {
+
+            /* .header {
+                background: none;
+                border-bottom: none
+            } */
+            .navbar {
+                width: 100%;
+                height: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+
+
+
+        }
+
+
+
+        /* ================================================== CSS-BODY CONTENT ========================================================= */
+
+
+        .body-content {
+            top: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            height: 1300px;
+            background: linear-gradient(to top, #04160c, #010b1a);
+
+
+        }
+
+        @media (max-width: 475px) {
+            .body-content {
+                font: size 1.5em;
+                height: 1000px;
+            }
+        }
+
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        .date_wib {
+            font-size: 15px;
+            color: rgb(224, 141, 17);
+            float: right;
+            padding: 5px
+        }
+
+        .date_utc {
+            font-size: 15px;
+            color: rgb(5, 5, 5);
+            float: right;
+            padding: 5px
+        }
+
+        @media (max-width: 475px) {
+            .date_wib {
+                font-size: 0.8em;
+                font-weight: bold;
+                padding: 0px;
+                color: rgb(224, 141, 17);
+                /* float:right */
+
+
+            }
+
+
+            .date_utc {
+                font-size: 0.7em;
+                color: rgb(90, 233, 85);
+                display: none;
+
+            }
+
+        }
+
+
+
+        /* ================================================== CSS-FOOTER ========================================================= */
+
+        .footer {
+            background: rgb(8, 8, 8);
+            height: 80px;
+            width: 100%;
+            position: relative;
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center;
+            top: 0px
+        }
+
+        .text-footer {
+            margin: 0px 0;
+            padding: 0px;
+            color: rgb(255, 255, 255);
+
+
+        }
+
+
+        /* ================================================== CSS-CONTAINER ========================================================= */
+
+        .container {
+            padding-top: 150px;
+            /* margin-left: 0;
+            margin-right: 0; */
+            max-width: 800px;
+            background-color: none;
+            position: relative;
+            object-position: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+
+
+
+
+        }
+
+        @media (max-width: 475px) {
+            .container {
+                padding-top: 150px;
+                /* margin-left: 0;
+            margin-right: 0; */
+                max-width: 400px;
+
+            }
+        }
+
+        .jumbotron {
+            background: url("http://gdurl.com/7azZ");
+            background-size: cover;
+            height: 1000px;
+        }
+
+
+
+        .fa {
+            padding: 10px 5px;
+            border-radius: 10%;
+            font-size: 20px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 15px;
+            position: relative;
+            object-position: center;
+        }
+
+        .fa:hover {
+            color: #010b1a
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #832c6d;
+            color: white;
+        }
+    </style>
+</head>
+
+<!-- ================================================== ISI LAMAN ========================================================= -->
+<!-- ================================================== ISI LAMAN ========================================================= -->
+
+
+<body>
+
+    <div class="header">
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"
+            style="background:linear-gradient(to bottom,#868686, #ffffff,#ffffff,#ffffff, #868686)">
+             -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logobmkg.svg" alt="" width="50" height="90">
+                    <img src="img/logobib.svg" alt="" width="120" height="70">
+
+                </a>
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                &emsp;
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <!-- <a class="nav-link" aria-current="page" href="about.html">About</a> -->
+                            <b> <a class="nav-link " aria-current="page" href="http://diseminasi.meteo.bmkg.go.id/bib/">Map
+                                    Interactive</a></b>
+                        </li>
+
+
+                        <!-- <li class="nav-item dropdown">
+                            <b><a class="nav-link dropdown-toggle" target="_blank" id="navbarDarkDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Link Info Cuaca
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item"
+                                            href="https://maritim.bmkg.go.id/area/pelayanan?kode=M.01"
+                                            target="_blank">Cuaca Maritim</a></li>
+                                </ul>
+                            </b>
+                        </li> -->
+                        <li class="nav-item">
+                            <b> <a class="nav-link " href="http://diseminasi.meteo.bmkg.go.id/bib/about.html">About</a></b>
+                        </li>
+
+                        <li class="nav-item">
+                            <b><a class="nav-link active" href="http://diseminasi.meteo.bmkg.go.id/bib/contact.html">Contact</a></b>
+                        </li>
+
+
+
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="index.html">Download</a>
+                        </li> -->
+
+                        <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li> -->
+
+                    </ul>
+
+                </div>
+                <p>
+                    <b><span id="date_wib" class="date_wib"></span></b>
+                    <br>
+                    <span id="date_utc" class="date_utc"></span>
+                </p>
+            </div>
+
+        </nav>
+
+
+
+
+    </div>
+    <!-- </nav> -->
+    <!-- <div class="wrap">
+
+        <div class="header">
+            <div class="row">
+                <div class="col-xs-12"></div>
+                <img alt="SPARTAN" src="img/header_fdrs_SPARTAN10.png" height="80" width="1348" />
+            </div>
+        </div> -->
+
+
+
+    <div class="row">
+        <div class="col-sm-4 col-xs-12"></div>
+
+        <div class="body-content">
+            div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-6" style="color: rgb(255, 180, 20)">CONTACT US</h1>
+                <p>Silakan hubungi hotline kami atau kunjungi sosial media kami untuk mendapatkan informasi lebih lanjut.</p>
+                <div class="callbutton">
+                    <a href="tel:196"><img src="img/callcenter.svg" alt="" width="200" height="300" />
+                </div>
+                <a href="https://www.facebook.com/InfoBMKG" class="fa fa-facebook"></a><a
+                    href="https://twitter.com/infoBMKG" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/user/infoBMKG" class="fa fa-youtube"></a><a
+                    href="https://www.instagram.com/infobmkg/" class="fa fa-instagram"></a>
+
+
+                <br>
+                <br>
+                <p>Informasi terkait layanan informasi cuaca khusus dapat diperoleh dengan mengajukan permohonam melalui Pelayanan Terpadu Satu Pintu (PTSP) BMKG
+                </p>
+
+                <p class="lead">
+                    <!-- <a class="btn btn-outline-warning" href="http://diseminasi.meteo.bmkg.go.id/bib/" role="button">Layanan
+                        Cuaca</a> -->
+                    <a class="btn btn-outline-warning" href="https://ptsp.bmkg.go.id/" role="button">PTSP BMKG</a>
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <!--===================================================== FOOTER ==================================================================  -->
+
+    <div class="row">
+        <div class="col-sm-4 col-xs-12"></div>
+        <div class="footer">
+            <br>
+            <i>
+
+                <p class="text-footer">&copy; Copyright Pusat Meteorologi Publik - BMKG 2022</p>
+
+
+            </i>
+
+        </div>
+    </div>
+
+
+</body>
+
+<!--===================================================== SCRIPT ==================================================================  -->
+<!--================================================= PETA INTERACTIVE ============================================================  -->
+
+
+<!--================================================= GRAFIK OPTION ============================================================  -->
+
+<script>
+
+    moment.locale('id')
+    function update() {
+        $('#date_wib').html(moment().add(1, 'hours').format('dddd, Do/MMMM/YYYY, LTS [WITA]'));
+        $('#date_utc').html(moment.utc().format('dddd, Do/MMMM/YYYY, LTS [UTC]'));
+    }
+
+
+    setInterval(update, 1000);
+
+
+
+
+
+</script>
+</body>
+
+</html>
