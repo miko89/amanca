@@ -1564,12 +1564,12 @@
 
 
     // Simulate receiving radar data
-    // var hasRadarData = true;
-    // if (hasRadarData) {
-    //     showAlert();
-    // } else {
-    //     hideAlert();
-    // }
+    var hasRadarData = true;
+    if (hasRadarData) {
+        showAlert();
+    } else {
+        hideAlert();
+    }
 
 
     function isRadarImageEmpty(imageUrlRadar, thresholdPercentage, callback) {
@@ -1618,7 +1618,7 @@
     }
 
     // Assuming you have the URL for the latest radar image in the variable `latestImageRadar`
-    var thresholdPercentage = 5; // Set the threshold to 60%
+    var thresholdPercentage = 100; // Set the threshold to 60%
     isRadarImageEmpty(latestImageRadar, thresholdPercentage, function (isEmpty) {
         if (isEmpty) {
             hideAlert();
