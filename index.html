@@ -1409,6 +1409,7 @@
     }
 
     // Mengambil data dari sumber data pertama
+    function updateMapData() {
     Promise.all([
         fetch('data/outputbanten_ps.json').then(response => response.json()),
         fetch('data/outputjakarta_ps.json').then(response => response.json()),
@@ -1537,10 +1538,11 @@
             });
         })
         .catch(error => console.error(error));
-
-
+    }
+    setInterval(updateMapData, 20 * 60 * 1000);
 
     // Mengambil data dari sumber data kedua
+
     Promise.all([
         fetch('data/outputbanten.json').then(response => response.json()),
         fetch('data/outputjakarta.json').then(response => response.json()),
@@ -1686,12 +1688,12 @@
 
         })
 
-    // Mengambil data secara awal
-    fetchData();
+    // // Mengambil data secara awal
+    // fetchData();
 
-    // Mengambil data setiap 3 jam (dalam milidetik)
-    setInterval(fetchData, 5000);
-    setInterval(updateMapData, 5000);
+    // // Mengambil data setiap 3 jam (dalam milidetik)
+    // setInterval(fetchData, 5000);
+  
 
 
     // <!--================================================== LAYER SATELIT =====================================================  -->
