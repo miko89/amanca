@@ -1509,7 +1509,8 @@
                             zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
                         });
 
-                        marker.addTo(markers00);
+                        marker.addTo(markers00)
+                
 
                         // Create popup content with the selected weather information
                         var popupContent = '<table style="border-collapse: collapse;">';
@@ -1979,12 +1980,14 @@
         "Citra Satelit": imageSatelit,
         "Present Weather": markers00,
         "Amandemen NDF": markers01,
-        "Hujan 24 (jam))": imageTemp,
+        "CH 24 (H) IFS": imageTemp,
         "Batas Wilayah": geojson,
         // "Lokasi KTT ASEAN": pointasean
     };
 
     var layer = L.control.layers(baseLayers, overlays).addTo(map);
+  
+   
 
     var htmlObject = layer.getContainer();
     var a = document.getElementById('example')
