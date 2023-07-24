@@ -1409,7 +1409,7 @@
     }
 
     // Mengambil data dari sumber data pertama
-    // function updateMapData() {
+    function updateMapData() {
     Promise.all([
         fetch('data/outputbanten_ps.json').then(response => response.json()),
         fetch('data/outputjakarta_ps.json').then(response => response.json()),
@@ -1509,9 +1509,8 @@
                             }),
                             zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
                         });
-
-                        marker.addTo(markers00).addTo(map)
-                
+                        marker.addTo(markers00)
+                        markers00.addTo(map)
 
                         // Create popup content with the selected weather information
                         var popupContent = '<table style="border-collapse: collapse;">';
@@ -1532,14 +1531,17 @@
                         marker.bindPopup(popupContent);
 
                         // Store the marker in the markers array
-                        markers.push(markers00);
+                        // markers.push(marker);
+                        
                     }
                 });
             });
+           
+            // map.addLayer(markers00);
         })
         .catch(error => console.error(error));
-    // }
-    // setInterval(updateMapData, 20000);
+    }
+    setInterval(updateMapData, 2000);
 
     // Mengambil data dari sumber data kedua
 
@@ -1639,6 +1641,7 @@
                         });
 
                         marker.addTo(markers01);
+                        // markers01.addTo(map)
 
                         // Create popup content with all weather information in data
                         var popupContent = '<table style="border-collapse: collapse; border: 1px solid #ccc; margin-bottom: 10px;">';
@@ -1681,7 +1684,7 @@
                         marker.bindPopup(popupContent);
 
                         // Store the marker in the markers array
-                        markers.push(markers01);
+                        // markers.push(markers01);
                     }
                 });
             });
@@ -1989,6 +1992,7 @@
     };
 
     var layer = L.control.layers(baseLayers, overlays).addTo(map);
+    
   
    
 
