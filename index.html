@@ -1409,7 +1409,7 @@
     }
 
     // Mengambil data dari sumber data pertama
-    function updateMapData() {
+    // function updateMapData() {
     Promise.all([
         fetch('data/outputbanten_ps.json').then(response => response.json()),
         fetch('data/outputjakarta_ps.json').then(response => response.json()),
@@ -1510,7 +1510,7 @@
                             zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
                         });
 
-                        marker.addTo(markers00)
+                        marker.addTo(markers00).addTo(map)
                 
 
                         // Create popup content with the selected weather information
@@ -1538,8 +1538,8 @@
             });
         })
         .catch(error => console.error(error));
-    }
-    setInterval(updateMapData, 10000);
+    // }
+    // setInterval(updateMapData, 20000);
 
     // Mengambil data dari sumber data kedua
 
