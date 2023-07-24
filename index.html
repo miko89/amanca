@@ -1411,7 +1411,7 @@
     }
 
     // Mengambil data dari sumber data pertama
-    function updateMapData() {
+    // function updateMapData() {
     Promise.all([
         fetch('data/outputbanten_ps.json').then(response => response.json()),
         fetch('data/outputjakarta_ps.json').then(response => response.json()),
@@ -1542,8 +1542,8 @@
             // map.addLayer(markers00);
         })
         .catch(error => console.error(error));
-    }
-    setInterval(updateMapData, 5000);
+    // }
+    // setInterval(updateMapData, 5000);
 
     // Mengambil data dari sumber data kedua
 
