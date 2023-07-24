@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>BMKG - AMANCA</title>
+    <title>BMKG - AMANCAOKE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -730,12 +730,13 @@
 
 
         .date {
-            color: rgb(236, 253, 138);
-            font-size: 18px
+            color: rgb(255, 255, 255);
+            font-size: 15px
         }
 
         .time {
-            color: rgb(255, 255, 255);
+
+            color: rgb(138, 226, 253);
             font-size: 15px
         }
 
@@ -907,8 +908,8 @@
                 <div id="alertContainer">
 
                     <div id="example" style="text-align: left;">
-                        <button id="alertButton" class="alertButton" disabled style="padding: 8px; margin: 0px">No
-                            alert</button>
+                        <!-- <button id="alertButton" class="alertButton" disabled style="padding: 8px; margin: 0px">No
+                            alert</button> -->
                         <p>Update Data Radar
                             <br><span id="radardate" style="color: rgb(255, 180, 20); font-size: 15px;"></span>
                         </p>
@@ -1242,14 +1243,14 @@
     //========================================================================= LAYER FORECAST GROUP ======================================
 
 
-    var prakiraancuaca00 = L.layerGroup().addTo(map)
-    var prakiraancuaca01 = L.layerGroup()
-    var prakiraancuaca02 = L.layerGroup()
-    var prakiraancuaca03 = L.layerGroup()
-    var prakiraancuaca04 = L.layerGroup()
-    var prakiraancuaca05 = L.layerGroup()
-    var prakiraancuaca06 = L.layerGroup()
-    var prakiraancuaca07 = L.layerGroup()
+    // var prakiraancuaca00 = L.layerGroup().addTo(map)
+    // var prakiraancuaca01 = L.layerGroup()
+    // var prakiraancuaca02 = L.layerGroup()
+    // var prakiraancuaca03 = L.layerGroup()
+    // var prakiraancuaca04 = L.layerGroup()
+    // var prakiraancuaca05 = L.layerGroup()
+    // var prakiraancuaca06 = L.layerGroup()
+    // var prakiraancuaca07 = L.layerGroup()
 
 
 
@@ -1270,144 +1271,425 @@
     // 	}
     //========================================================================= ICON FOREVCAST ======================================
 
+    // var map;
+    // var markers = [];
+    // function fetchData() {
+    //     // Mengambil data JSON dari file
+    //     Promise.all([
+    //         fetch('data/outputbanten_ps.json').then(response => response.json()),
+    //         fetch('data/outputjakarta_ps.json').then(response => response.json()),
+    //         fetch('data/outputjabar_ps.json').then(response => response.json())
+
+    //     ])
+    //         .then(jsonDataArray => {
+    //             // Membersihkan penanda sebelumnya
+    //             markers.forEach(function (marker) {
+    //                 marker.remove();
+    //             });
+    //             markers = [];
+
+    //             // Mendapatkan waktu saat ini
+    //             var currentTime = moment(d0);
+
+    //             // Melakukan perulangan pada data JSON
+    //             jsonDataArray.forEach(function (jsonData) {
+    //                 jsonData.forEach(function (data) {
+    //                     // Ekstrak koordinat dan informasi cuaca
+    //                     var latitude = data.lintang;
+    //                     var longitude = data.bujur;
+    //                     var weather = data.weather;
+
+    //                     // Mencari data cuaca terdekat berdasarkan tanggal dan waktu
+    //                     var currentDateTime = moment(d0);
+
+    //                     var nearestWeather = weather.reduce(function (nearest, w) {
+    //                         var weatherTime = moment(w.tanggal);
+    //                         return (weatherTime.isAfter(nearest) && weatherTime.isSameOrBefore(currentDateTime)) ? weatherTime : nearest;
+    //                     }, moment(0));
+
+    //                     var selectedWeather = weather.find(function (w) {
+    //                         return moment(w.tanggal).isSame(nearestWeather);
+    //                     });
+
+    //                     var formattedDate = moment.utc(selectedWeather.tanggal).utcOffset('+07:00').format('DD - MM - YYYY  HH:mm');
+
+    //                     if (selectedWeather) {
+    //                         // Extract the weather value
+    //                         var cuaca = selectedWeather.cuaca;
+
+    //                         // Determine the color of the marker based on the weather value
+    //                         var markerColor;
+    //                         if (cuaca == 0) {
+    //                             markerColor = 'img/CERAH.svg';
+    //                         } else if (cuaca == 1) {
+    //                             markerColor = 'img/CERAHBERAWAN.svg';
+    //                         } else if (cuaca == 2) {
+    //                             markerColor = 'img/CERAHBERAWAN.svg';
+    //                         } else if (cuaca == 3) {
+    //                             markerColor = 'img/BERAWAN.svg';
+    //                         } else if (cuaca == 4) {
+    //                             markerColor = 'img/BERAWAN.svg';
+    //                         } else if (cuaca == 5) {
+    //                             markerColor = 'img/HAZE.svg';
+    //                         } else if (cuaca == 10) {
+    //                             markerColor = 'img/FOG.svg';
+    //                         } else if (cuaca == 45) {
+    //                             markerColor = 'img/MIST.svg';
+    //                         } else if (cuaca == 60) {
+    //                             markerColor = 'img/HUJANRINGAN.svg';
+    //                         } else if (cuaca == 61) {
+    //                             markerColor = 'img/HUJANSEDANG.svg';
+    //                         } else if (cuaca == 63) {
+    //                             markerColor = 'img/HUJANLEBAT.svg';
+    //                         } else if (cuaca == 95) {
+    //                             markerColor = 'img/HUJANPETIR.svg';
+    //                         } else {
+    //                             markerColor = 'img/HUJANPETIR.svg';
+    //                         }
+
+    //                         let kodeCuaca = {
+    //                             '0': ['Cerah', 'CERAH_1.svg'],
+    //                             '1': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
+    //                             '2': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
+    //                             '3': ['Berawan ', 'BERAWAN_1.svg'],
+    //                             '4': ['Berawan Tebal', 'BERAWAN_1.svg'],
+    //                             '5': ['Udara Kabur', 'HAZE_1.svg'],
+    //                             '10': ['Asap', 'FOG_1.svg'],
+    //                             '45': ['Kabut', 'MIST_1.svg'],
+    //                             '60': ['Hujan Ringan', 'HUJANRINGAN_1.svg'],
+    //                             '61': ['Hujan Sedang', 'HUJANSEDANG_1.svg'],
+    //                             '63': ['Hujan Lebat', 'HUJANLEBAT_1.svg'],
+    //                             '80': ['Hujan Lokal', 'HUJANRINGAN.svg'],
+    //                             '95': ['Hujan Petir', 'HUJANPETIR.svg'],
+    //                             '97': ['Hujan Petir', 'HUJANPETIR.svg'],
+    //                         };
+
+
+    //                         // Create a marker with the specified icon
+    //                         var marker = L.marker([latitude, longitude], {
+    //                             icon: L.icon({
+    //                                 iconUrl: markerColor,
+    //                                 iconSize: [27, 43],
+    //                                 iconAnchor: [12, 41]
+    //                             }),
+    //                             zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
+    //                         });
+
+    //                         marker.addTo(prakiraancuaca00);
+
+    //                         // Create popup content with the selected weather information
+    //                         var popupContent = '<table style="border-collapse: collapse;">';
+    //                         popupContent += '<tr><td style="border: none; padding: 2px;"><span class="date">' + formattedDate.substr(0, 15) + '</span></td><td style="border: none; padding: 2px;"><span class="time">' + formattedDate.substr(15) + ' WIB</span></td></tr>';
+    //                         popupContent += '<tr><td colspan="2" style="padding: 5px; text-align: center;"><h5 style="margin: 0;">' + data.kecamatan + '</h5></td></tr>';
+    //                         popupContent += '<tr><td style="border: none; padding: 2px;"><object type="image/svg+xml" style="width:70px" data="img/' + kodeCuaca[selectedWeather.cuaca][1] + '"></object></td>';
+    //                         popupContent += '<td style="border: none; padding: 5px;"><div style="text-align: center;"><p style="margin: 0;"><span style="font-size: 16px; color: rgb(236, 253, 138);">' + kodeCuaca[selectedWeather.cuaca][0] + '</span></p><p style="margin: 0; font-size: 25px;">' + selectedWeather.suhu + '&#8451;</p><p style="margin: 0; font-size: 16px;">Humidity: ' + selectedWeather.rh + ' %</p></div></td></tr>';
+    //                         popupContent += '<tr><td style="border: none; padding: 2px;"><img style="width:20px;" src="' + 'img/' + selectedWeather.arah + '.svg"></td><td style="border: none; padding: 2px;">Wind Speed: ' + selectedWeather.kec + ' km/jam</td></tr>';
+    //                         popupContent += '</table>';
+
+    //                         // Bind popup to the marker
+    //                         marker.bindPopup(popupContent);
+
+    //                         // Store the marker in the markers array
+    //                         markers.push(marker);
+    //                     }
+    //                 });
+    //             });
+    //         })
+    //         .catch(error => console.error(error));
+    // }
     var map;
     var markers = [];
+    var markers00 = L.layerGroup();
+    var markers01 = L.layerGroup();
 
-    function fetchData() {
-        // Mengambil data JSON dari file
-        Promise.all([
-            fetch('data/outputbanten_ps.json').then(response => response.json()),
-            fetch('data/outputjakarta_ps.json').then(response => response.json()),
-            fetch('data/outputjabar_ps.json').then(response => response.json())
-        ])
-            .then(jsonDataArray => {
-                // Membersihkan penanda sebelumnya
-                markers.forEach(function (marker) {
-                    marker.remove();
-                });
-                markers = [];
-
-                // Mendapatkan waktu saat ini
-                var currentTime = moment(d0);
-
-                // Melakukan perulangan pada data JSON
-                jsonDataArray.forEach(function (jsonData) {
-                    jsonData.forEach(function (data) {
-                        // Ekstrak koordinat dan informasi cuaca
-                        var latitude = data.lintang;
-                        var longitude = data.bujur;
-                        var weather = data.weather;
-
-                        // Mencari data cuaca terdekat berdasarkan tanggal dan waktu
-                        var currentDateTime = moment(d0);
-
-                        var nearestWeather = weather.reduce(function (nearest, w) {
-                            var weatherTime = moment(w.tanggal);
-                            return (weatherTime.isAfter(nearest) && weatherTime.isSameOrBefore(currentDateTime)) ? weatherTime : nearest;
-                        }, moment(0));
-
-                        var selectedWeather = weather.find(function (w) {
-                            return moment(w.tanggal).isSame(nearestWeather);
-                        });
-
-                        var formattedDate = moment.utc(selectedWeather.tanggal).utcOffset('+07:00').format('DD - MM - YYYY  HH:mm');
-
-                        if (selectedWeather) {
-                            // Extract the weather value
-                            var cuaca = selectedWeather.cuaca;
-
-                            // Determine the color of the marker based on the weather value
-                            var markerColor;
-                            if (cuaca == 0) {
-                                markerColor = 'img/CERAH.svg';
-                            } else if (cuaca == 1) {
-                                markerColor = 'img/CERAHBERAWAN.svg';
-                            } else if (cuaca == 2) {
-                                markerColor = 'img/CERAHBERAWAN.svg';
-                            } else if (cuaca == 3) {
-                                markerColor = 'img/BERAWAN.svg';
-                            } else if (cuaca == 4) {
-                                markerColor = 'img/BERAWAN.svg';
-                            } else if (cuaca == 5) {
-                                markerColor = 'img/HAZE.svg';
-                            } else if (cuaca == 10) {
-                                markerColor = 'img/FOG.svg';
-                            } else if (cuaca == 45) {
-                                markerColor = 'img/MIST.svg';
-                            } else if (cuaca == 60) {
-                                markerColor = 'img/HUJANRINGAN.svg';
-                            } else if (cuaca == 61) {
-                                markerColor = 'img/HUJANSEDANG.svg';
-                            } else if (cuaca == 63) {
-                                markerColor = 'img/HUJANLEBAT.svg';
-                            } else if (cuaca == 95) {
-                                markerColor = 'img/HUJANPETIR.svg';
-                            } else {
-                                markerColor = 'img/HUJANPETIR.svg';
-                            }
-
-                            let kodeCuaca = {
-                                '0': ['Cerah', 'CERAH_1.svg'],
-                                '1': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
-                                '2': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
-                                '3': ['Berawan ', 'BERAWAN_1.svg'],
-                                '4': ['Berawan Tebal', 'BERAWAN_1.svg'],
-                                '5': ['Udara Kabur', 'HAZE_1.svg'],
-                                '10': ['Asap', 'FOG_1.svg'],
-                                '45': ['Kabut', 'MIST_1.svg'],
-                                '60': ['Hujan Ringan', 'HUJANRINGAN_1.svg'],
-                                '61': ['Hujan Sedang', 'HUJANSEDANG_1.svg'],
-                                '63': ['Hujan Lebat', 'HUJANLEBAT_1.svg'],
-                                '80': ['Hujan Lokal', 'HUJANRINGAN.svg'],
-                                '95': ['Hujan Petir', 'HUJANPETIR.svg'],
-                                '97': ['Hujan Petir', 'HUJANPETIR.svg'],
-                            };
-
-
-                            // Create a marker with the specified icon
-                            var marker = L.marker([latitude, longitude], {
-                                icon: L.icon({
-                                    iconUrl: markerColor,
-                                    iconSize: [27, 43],
-                                    iconAnchor: [12, 41]
-                                }),
-                                zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
-                            });
-
-                            marker.addTo(prakiraancuaca00);
-
-                            // Create popup content with the selected weather information
-                            var popupContent = '<table style="border-collapse: collapse;">';
-                            popupContent += '<tr><td style="border: none; padding: 2px;"><span class="date">' + formattedDate.substr(0, 15) + '</span></td><td style="border: none; padding: 2px;"><span class="time">' + formattedDate.substr(15) + ' WIB</span></td></tr>';
-                            popupContent += '<tr><td colspan="2" style="padding: 5px; text-align: center;"><h5 style="margin: 0;">' + data.kecamatan + '</h5></td></tr>';
-                            popupContent += '<tr><td style="border: none; padding: 2px;"><object type="image/svg+xml" style="width:70px" data="img/' + kodeCuaca[selectedWeather.cuaca][1] + '"></object></td>';
-                            popupContent += '<td style="border: none; padding: 5px;"><div style="text-align: center;"><p style="margin: 0;"><span style="font-size: 16px; color: rgb(236, 253, 138);">' + kodeCuaca[selectedWeather.cuaca][0] + '</span></p><p style="margin: 0; font-size: 25px;">' + selectedWeather.suhu + '&#8451;</p><p style="margin: 0; font-size: 16px;">Humidity: ' + selectedWeather.rh + ' %</p></div></td></tr>';
-                            popupContent += '<tr><td style="border: none; padding: 2px;"><img style="width:20px;" src="' + 'img/' + selectedWeather.arah + '.svg"></td><td style="border: none; padding: 2px;">Wind Speed: ' + selectedWeather.kec + ' km/jam</td></tr>';
-                            popupContent += '</table>';
-
-
-
-
-
-
-
-                            // Bind popup to the marker
-                            marker.bindPopup(popupContent);
-
-                            // Store the marker in the markers array
-                            markers.push(marker);
-                        }
-                    });
-                });
-            })
+    function fetchData(url) {
+        return fetch(url)
+            .then(response => response.json())
             .catch(error => console.error(error));
     }
 
-    // Mengambil data secara awal
-    fetchData();
+    // Mengambil data dari sumber data pertama
+    Promise.all([
+        fetch('data/outputbanten_ps.json').then(response => response.json()),
+        fetch('data/outputjakarta_ps.json').then(response => response.json()),
+        fetch('data/outputjabar_ps.json').then(response => response.json())
 
-    // Mengambil data setiap 3 jam (dalam milidetik)
-    setInterval(fetchData, 3 * 60 * 60 * 1000);
+    ])
+        .then(jsonDataArray => {
+            // Membersihkan penanda sebelumnya
+            markers.forEach(function (marker) {
+                marker.remove();
+            });
+            markers = [];
+
+            // Mendapatkan waktu saat ini
+            var currentTime = moment(d0);
+
+            // Melakukan perulangan pada data JSON
+            jsonDataArray.forEach(function (jsonData) {
+                jsonData.forEach(function (data) {
+                    // Ekstrak koordinat dan informasi cuaca
+                    var latitude = data.lintang;
+                    var longitude = data.bujur;
+                    var weather = data.weather;
+
+                    // Mencari data cuaca terdekat berdasarkan tanggal dan waktu
+                    var currentDateTime = moment(d0);
+
+                    var nearestWeather = weather.reduce(function (nearest, w) {
+                        var weatherTime = moment(w.tanggal);
+                        return (weatherTime.isAfter(nearest) && weatherTime.isSameOrBefore(currentDateTime)) ? weatherTime : nearest;
+                    }, moment(0));
+
+                    var selectedWeather = weather.find(function (w) {
+                        return moment(w.tanggal).isSame(nearestWeather);
+                    });
+
+                    var formattedDate = moment.utc(selectedWeather.tanggal).utcOffset('+07:00').format('DD - MM - YYYY  HH:mm');
+
+                    if (selectedWeather) {
+                        // Extract the weather value
+                        var cuaca = selectedWeather.cuaca;
+
+                        // Determine the color of the marker based on the weather value
+                        var markerColor;
+                        if (cuaca == 0) {
+                            markerColor = 'img/CERAH.svg';
+                        } else if (cuaca == 1) {
+                            markerColor = 'img/CERAHBERAWAN.svg';
+                        } else if (cuaca == 2) {
+                            markerColor = 'img/CERAHBERAWAN.svg';
+                        } else if (cuaca == 3) {
+                            markerColor = 'img/BERAWAN.svg';
+                        } else if (cuaca == 4) {
+                            markerColor = 'img/BERAWAN.svg';
+                        } else if (cuaca == 5) {
+                            markerColor = 'img/HAZE.svg';
+                        } else if (cuaca == 10) {
+                            markerColor = 'img/FOG.svg';
+                        } else if (cuaca == 45) {
+                            markerColor = 'img/MIST.svg';
+                        } else if (cuaca == 60) {
+                            markerColor = 'img/HUJANRINGAN.svg';
+                        } else if (cuaca == 61) {
+                            markerColor = 'img/HUJANSEDANG.svg';
+                        } else if (cuaca == 63) {
+                            markerColor = 'img/HUJANLEBAT.svg';
+                        } else if (cuaca == 95) {
+                            markerColor = 'img/HUJANPETIR.svg';
+                        } else {
+                            markerColor = 'img/HUJANPETIR.svg';
+                        }
+
+                        let kodeCuaca = {
+                            '0': ['Cerah', 'CERAH_1.svg'],
+                            '1': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
+                            '2': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
+                            '3': ['Berawan ', 'BERAWAN_1.svg'],
+                            '4': ['Berawan Tebal', 'BERAWAN_1.svg'],
+                            '5': ['Udara Kabur', 'HAZE_1.svg'],
+                            '10': ['Asap', 'FOG_1.svg'],
+                            '45': ['Kabut', 'MIST_1.svg'],
+                            '60': ['Hujan Ringan', 'HUJANRINGAN_1.svg'],
+                            '61': ['Hujan Sedang', 'HUJANSEDANG_1.svg'],
+                            '63': ['Hujan Lebat', 'HUJANLEBAT_1.svg'],
+                            '80': ['Hujan Lokal', 'HUJANRINGAN.svg'],
+                            '95': ['Hujan Petir', 'HUJANPETIR.svg'],
+                            '97': ['Hujan Petir', 'HUJANPETIR.svg'],
+                        };
+
+
+                        // Create a marker with the specified icon
+                        var marker = L.marker([latitude, longitude], {
+                            icon: L.icon({
+                                iconUrl: markerColor,
+                                iconSize: [27, 43],
+                                iconAnchor: [12, 41]
+                            }),
+                            zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
+                        });
+
+                        marker.addTo(markers00);
+
+                        // Create popup content with the selected weather information
+                        var popupContent = '<table style="border-collapse: collapse;">';
+                        popupContent += '<tr><td style="border: none; padding: 2px;"><span class="date">' + formattedDate.substr(0, 15) + '</span></td><td style="border: none; padding: 2px;"><span class="time">' + formattedDate.substr(15) + ' WIB</span></td></tr>';
+                        popupContent += '<tr><td colspan="2" style="padding: 5px; text-align: center;"><h5 style="margin: 0;">' + data.kecamatan + '</h5></td></tr>';
+                        popupContent += '<tr><td style="border: none; padding: 2px;"><object type="image/svg+xml" style="width:50px" data="img/' + kodeCuaca[selectedWeather.cuaca][1] + '"></object><br><span style="font-size: 13px; color: rgb(236, 253, 138);">' + kodeCuaca[selectedWeather.cuaca][0] + '</span></td>';
+                        popupContent += '<td style="border: none; padding: 5px;"><div style="text-align: center;"><p style="margin: 0;"></p><p style="margin: 0; font-size: 25px;">' + selectedWeather.suhu + '&#8451;</p><p style="margin: 0; font-size: 16px;">Humidity: ' + selectedWeather.rh + ' %</p></div></td></tr>';
+                        popupContent += '<tr><td style="border: none; padding: 2px;"><img style="width:20px;" src="' + 'img/' + selectedWeather.arah + '.svg"></td><td style="border: none; padding: 2px;">Wind Speed: ' + selectedWeather.kec + ' km/jam</td></tr>';
+                        popupContent += '</table>';
+
+
+
+
+
+
+
+                        // Bind popup to the marker
+                        marker.bindPopup(popupContent);
+
+                        // Store the marker in the markers array
+                        markers.push(markers00);
+                    }
+                });
+            });
+        })
+        .catch(error => console.error(error));
+
+
+
+    // Mengambil data dari sumber data kedua
+    Promise.all([
+        fetch('data/outputbanten.json').then(response => response.json()),
+        fetch('data/outputjakarta.json').then(response => response.json()),
+        fetch('data/outputjabar.json').then(response => response.json())
+
+    ])
+        .then(jsonDataArray => {
+            // Membersihkan penanda sebelumnya
+            markers.forEach(function (marker) {
+                marker.remove();
+            });
+            markers = [];
+
+            var currentTime = moment(d0);
+
+            // Melakukan perulangan pada data JSON
+            jsonDataArray.forEach(function (jsonData) {
+                jsonData.forEach(function (data) {
+                    // Ekstrak koordinat dan informasi cuaca
+                    var latitude = data.lintang;
+                    var longitude = data.bujur;
+                    var weather = data.weather;
+
+                    // Mencari data cuaca terdekat berdasarkan tanggal dan waktu
+                    var currentDateTime = moment(d0);
+
+                    var nearestWeather = weather.reduce(function (nearest, w) {
+                        var weatherTime = moment(w.tanggal);
+                        return (weatherTime.isAfter(nearest) && weatherTime.isSameOrBefore(currentDateTime)) ? weatherTime : nearest;
+                    }, moment(0));
+
+                    var selectedWeather = weather.find(function (w) {
+                        return moment(w.tanggal).isSame(nearestWeather);
+                    });
+
+                    if (selectedWeather) {
+                        let kodeCuaca = {
+                            '0': ['Cerah', 'CERAH_1.svg'],
+                            '1': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
+                            '2': ['Cerah Berawan ', 'CERAHBERAWAN_1.svg'],
+                            '3': ['Berawan ', 'BERAWAN_1.svg'],
+                            '4': ['Berawan Tebal', 'BERAWAN_1.svg'],
+                            '5': ['Udara Kabur', 'HAZE_1.svg'],
+                            '10': ['Asap', 'FOG_1.svg'],
+                            '45': ['Kabut', 'MIST_1.svg'],
+                            '60': ['Hujan Ringan', 'HUJANRINGAN_1.svg'],
+                            '61': ['Hujan Sedang', 'HUJANSEDANG_1.svg'],
+                            '63': ['Hujan Lebat', 'HUJANLEBAT_1.svg'],
+                            '80': ['Hujan Lokal', 'HUJANRINGAN.svg'],
+                            '95': ['Hujan Petir', 'HUJANPETIR.svg'],
+                            '97': ['Hujan Petir', 'HUJANPETIR.svg'],
+                            // ... tambahkan kode cuaca lainnya seperti yang sudah Anda lakukan sebelumnya
+                        };
+
+                        // Determine the color of the marker based on the selected weather value
+                        var markerColor;
+                        if (selectedWeather.cuaca == 0) {
+                            markerColor = 'img/CERAH.svg';
+                        } else if (selectedWeather.cuaca == 1) {
+                            markerColor = 'img/CERAHBERAWAN.svg';
+                        } else if (selectedWeather.cuaca == 2) {
+                            markerColor = 'img/CERAHBERAWAN.svg';
+                        } else if (selectedWeather.cuaca == 3) {
+                            markerColor = 'img/BERAWAN.svg';
+                        } else if (selectedWeather.cuaca == 4) {
+                            markerColor = 'img/BERAWAN.svg';
+                        } else if (selectedWeather.cuaca == 5) {
+                            markerColor = 'img/HAZE.svg';
+                        } else if (selectedWeather.cuaca == 10) {
+                            markerColor = 'img/FOG.svg';
+                        } else if (selectedWeather.cuaca == 45) {
+                            markerColor = 'img/MIST.svg';
+                        } else if (selectedWeather.cuaca == 60) {
+                            markerColor = 'img/HUJANRINGAN.svg';
+                        } else if (selectedWeather.cuaca == 61) {
+                            markerColor = 'img/HUJANSEDANG.svg';
+                        } else if (selectedWeather.cuaca == 63) {
+                            markerColor = 'img/HUJANLEBAT.svg';
+                        } else if (selectedWeather.cuaca == 95) {
+                            markerColor = 'img/HUJANPETIR.svg';
+                        } else {
+                            markerColor = 'img/HUJANPETIR.svg';
+                        }
+                        // ... tambahkan kondisi untuk kode cuaca lainnya seperti yang sudah Anda lakukan sebelumnya
+
+                        // Create a marker with the specified icon
+                        var marker = L.marker([latitude, longitude], {
+                            icon: L.icon({
+                                iconUrl: markerColor,
+                                iconSize: [27, 43],
+                                iconAnchor: [12, 41]
+                            }),
+                            zoomAnimation: false // Menghindari perubahan ukuran marker saat zoom
+                        });
+
+                        marker.addTo(markers01);
+
+                        // Create popup content with all weather information in data
+                        var popupContent = '<table style="border-collapse: collapse; border: 1px solid #ccc; margin-bottom: 10px;">';
+                        var nearestWeatherTime = moment.utc(selectedWeather.tanggal).utcOffset('+07:00').format('DD - MM - YYYY  HH:mm');
+                        var nearestWeatherTemperature = selectedWeather.suhu;
+                        var nearestWeatherCuaca = kodeCuaca[selectedWeather.cuaca][1];
+                        var nearestWeatherCuaca2 = kodeCuaca[selectedWeather.cuaca][0];
+                        var nearestWeatherHumidity = selectedWeather.rh;
+                        var nearestWeatherWindSpeed = selectedWeather.kec;
+                        var nearestWeatherWindArah = selectedWeather.arah;
+
+                        popupContent += '<tr><td style="border: none; padding: 2px;"><span class="date">' + nearestWeatherTime.substr(0, 15) + '</span></td><td style="border: none; padding: 2px;"><span class="time">' + nearestWeatherTime.substr(15) + ' WIB</span></td></tr>';
+                        popupContent += '<tr><td colspan="2" style="padding: 5px; text-align: center;"><h5 style="margin: 0;">' + data.kecamatan + '</h5></td></tr>';
+                        popupContent += '<tr><td style="border: none; padding: 2px;"><object type="image/svg+xml" style="width:50px" data="img/' + nearestWeatherCuaca + '"></object><br><span style="font-size: 13px; color: rgb(236, 253, 138);">' + nearestWeatherCuaca2 + '</span></td>';
+                        popupContent += '<td style="border: none; padding: 5px;"><div style="text-align: center;"><p style="margin: 0;"></p><p style="margin: 0; font-size: 25px;">' + nearestWeatherTemperature + '&#8451;</p><p style="margin: 0; font-size: 16px;">Humidity: ' + nearestWeatherHumidity + ' %</p></div></td></tr>';
+                        popupContent += '<tr><td style="border: none; padding: 2px;"><img style="width:20px;" src="' + 'img/' + nearestWeatherWindArah + '.svg"></td><td style="border: none; padding: 2px;">Wind Speed: ' + nearestWeatherWindSpeed + ' km/jam</td></tr>';
+
+
+
+                        weather.forEach(function (w) {
+                            var weatherTime = moment(w.tanggal);
+
+                            // Pengecekan apakah tanggal cuaca belum lewat
+                            if (weatherTime.isAfter(currentTime)) {
+                                var formattedDate = moment.utc(w.tanggal).utcOffset('+07:00').format('DD - MM - YYYY  HH:mm');
+                                popupContent += '<tr style="border: 1px solid #ccc; padding: 10px;">'; // Add padding to the <tr> element
+                                popupContent += '<tr><td style="border: none; padding: 2px;"><span class="date">' + formattedDate.substr(0, 15) + '</span></td><td style="border: none; padding: 2px;"><span class="time">' + formattedDate.substr(15) + ' WIB</span></td></tr>';
+                                popupContent += '<tr><td style="border: none; padding: 2px;"><object type="image/svg+xml" style="width:50px" data="img/' + kodeCuaca[selectedWeather.cuaca][1] + '"></object><br><span style="font-size: 13px; color: rgb(236, 253, 138);">' + kodeCuaca[selectedWeather.cuaca][0] + '</span></td>';
+                                popupContent += '<td style="border: none; padding: 5px;"><div style="text-align: center;"><p style="margin: 0;"></p><p style="margin: 0; font-size: 25px;">' + selectedWeather.suhu + '&#8451;</p><p style="margin: 0; font-size: 16px;">Humidity: ' + selectedWeather.rh + ' %</p></div></td></tr>';
+                                popupContent += '<tr><td style="border: none; padding: 2px;"><img style="width:20px;" src="' + 'img/' + selectedWeather.arah + '.svg"></td><td style="border: none; padding: 2px;">Wind Speed: ' + selectedWeather.kec + ' km/jam</td></tr>';
+
+                                popupContent += '</tr>';
+                            }
+
+                        });
+
+                        popupContent += '</table>';
+
+                        // Bind popup to the marker
+                        marker.bindPopup(popupContent);
+
+                        // Store the marker in the markers array
+                        markers.push(markers01);
+                    }
+                });
+            });
+
+        })
+
+    // // Mengambil data secara awal
+    // fetchData();
+
+    // // Mengambil data setiap 3 jam (dalam milidetik)
+    // setInterval(fetchData, 3 * 60 * 60 * 1000);
 
 
     // <!--================================================== LAYER SATELIT =====================================================  -->
@@ -1564,96 +1846,96 @@
 
 
     // Simulate receiving radar data
-    var hasRadarData = true;
-    if (hasRadarData) {
-        showAlert();
-    } else {
-        hideAlert();
-    }
+    //     var hasRadarData = true;
+    //     if (hasRadarData) {
+    //         showAlert();
+    //     } else {
+    //         hideAlert();
+    //     }
 
 
-    function isRadarImageEmpty(imageUrlRadar, thresholdPercentage, callback) {
-        var canvas = document.createElement('canvas');
-        var ctx = canvas.getContext('2d');
-        var img = new Image();
+    //     function isRadarImageEmpty(imageUrlRadar, thresholdPercentage, callback) {
+    //         var canvas = document.createElement('canvas');
+    //         var ctx = canvas.getContext('2d');
+    //         var img = new Image();
 
-        img.onload = function () {
-    canvas.width = img.width;
-    canvas.height = img.height;
+    //         img.onload = function () {
+    //     canvas.width = img.width;
+    //     canvas.height = img.height;
 
-    ctx.drawImage(img, 0, 0, img.width, img.height);
+    //     ctx.drawImage(img, 0, 0, img.width, img.height);
 
-    var imageData = ctx.getImageData(0, 0, img.width, img.height).data;
+    //     var imageData = ctx.getImageData(0, 0, img.width, img.height).data;
 
-    var totalPixels = imageData.length / 4; // Divide by 4 because imageData contains rgba values (4 bytes per pixel)
-    var nonTransparentPixelCount = 0;
+    //     var totalPixels = imageData.length / 4; // Divide by 4 because imageData contains rgba values (4 bytes per pixel)
+    //     var nonTransparentPixelCount = 0;
 
-    // Check the number of non-transparent pixels
-    for (var i = 0; i < imageData.length; i += 4) {
-        if (imageData[i + 3] !== 0) {
-            nonTransparentPixelCount++;
-        }
-    }
+    //     // Check the number of non-transparent pixels
+    //     for (var i = 0; i < imageData.length; i += 4) {
+    //         if (imageData[i + 3] !== 0) {
+    //             nonTransparentPixelCount++;
+    //         }
+    //     }
 
-    var nonTransparentPercentage = (nonTransparentPixelCount / totalPixels) * 100;
+    //     var nonTransparentPercentage = (nonTransparentPixelCount / totalPixels) * 100;
 
-    console.log('Percentage of non-transparent pixels:', nonTransparentPercentage + '%');
+    //     console.log('Percentage of non-transparent pixels:', nonTransparentPercentage + '%');
 
-    if (nonTransparentPercentage >= thresholdPercentage) {
-        console.log('Radar image contains data.');
-        callback(true); // Show alert since the percentage of non-transparent pixels meets the threshold
-    } else {
-        console.log('Radar image is empty.');
-        callback(false); // Hide alert since the percentage of non-transparent pixels is below the threshold
-    }
-};
-
-
-        img.onerror = function () {
-            console.error('Error loading the image.');
-            callback(false); // Hide alert in case of an error
-        };
-
-        img.src = imageUrlRadar;
-    }
-
-    // Assuming you have the URL for the latest radar image in the variable `latestImageRadar`
-    var thresholdPercentage = 100; // Set the threshold to 60%
-    isRadarImageEmpty(latestImageRadar, thresholdPercentage, function (isEmpty) {
-        if (isEmpty) {
-            hideAlert();
-        } else {
-            showAlert();
-        }
-    });
+    //     if (nonTransparentPercentage >= thresholdPercentage) {
+    //         console.log('Radar image contains data.');
+    //         callback(true); // Show alert since the percentage of non-transparent pixels meets the threshold
+    //     } else {
+    //         console.log('Radar image is empty.');
+    //         callback(false); // Hide alert since the percentage of non-transparent pixels is below the threshold
+    //     }
+    // };
 
 
-    // Function to show the alert message
-    function showAlert() {
-        var alertButton = document.getElementById('alertButton');
-        alertButton.textContent = 'ALERT';
-        alertButton.classList.add('show');
-        alertButton.classList.add('blink');
-    }
+    //         img.onerror = function () {
+    //             console.error('Error loading the image.');
+    //             callback(false); // Hide alert in case of an error
+    //         };
 
-    // Function to hide the alert message
-    function hideAlert() {
-        var alertButton = document.getElementById('alertButton');
-        alertButton.textContent = 'No alert';
-        alertButton.classList.remove('show');
-        alertButton.classList.remove('blink');
-    }
+    //         img.src = imageUrlRadar;
+    //     }
 
-    function handleAlertClick() {
-        var alertButton = document.getElementById('alertButton');
-        alertButton.setAttribute('disabled', 'disabled');
-    }
+    //     // Assuming you have the URL for the latest radar image in the variable `latestImageRadar`
+    //     var thresholdPercentage = 5; // Set the threshold to 60%
+    //     isRadarImageEmpty(latestImageRadar, thresholdPercentage, function (isEmpty) {
+    //         if (isEmpty) {
+    //             hideAlert();
+    //         } else {
+    //             showAlert();
+    //         }
+    //     });
 
-    // // Example usage to enable the alert button again
-    function enableAlertButton() {
-        var alertButton = document.getElementById('alertButton');
-        alertButton.removeAttribute('disabled');
-    }
+
+    //     // Function to show the alert message
+    //     function showAlert() {
+    //         var alertButton = document.getElementById('alertButton');
+    //         alertButton.textContent = 'ALERT';
+    //         alertButton.classList.add('show');
+    //         alertButton.classList.add('blink');
+    //     }
+
+    //     // Function to hide the alert message
+    //     function hideAlert() {
+    //         var alertButton = document.getElementById('alertButton');
+    //         alertButton.textContent = 'No alert';
+    //         alertButton.classList.remove('show');
+    //         alertButton.classList.remove('blink');
+    //     }
+
+    //     function handleAlertClick() {
+    //         var alertButton = document.getElementById('alertButton');
+    //         alertButton.setAttribute('disabled', 'disabled');
+    //     }
+
+    //     // // Example usage to enable the alert button again
+    //     function enableAlertButton() {
+    //         var alertButton = document.getElementById('alertButton');
+    //         alertButton.removeAttribute('disabled');
+    //     }
 
 
 
@@ -1695,7 +1977,8 @@
 
         "Citra Radar": imageRadar,
         "Citra Satelit": imageSatelit,
-        "Prakiraan Cuaca": prakiraancuaca00,
+        "Present Weather": markers00,
+        "Amandemen NDF": markers01,
         "Hujan 24 (jam))": imageTemp,
         "Batas Wilayah": geojson,
         // "Lokasi KTT ASEAN": pointasean
