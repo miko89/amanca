@@ -62,7 +62,7 @@ def main():
     output_files = [
         r'E:\amanca\data\merged_data_banten.csv',
         r'E:\amanca\data\merged_data_jakarta.csv',
-        r'E:\amanca\data\merged_data_jabar.csv'
+        r'E:\amanca\data\merged_data_jawabarat.csv'
     ]
     json_files = [
         r'E:\amanca\data\outputbanten.json',
